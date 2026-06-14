@@ -1,0 +1,725 @@
+{
+  "categories": [
+    {
+      "id": "picks-for-you",
+      "name": {
+        "en": "Picks for you 🔥",
+        "ar": "مختاراتنا لك 🔥"
+      },
+      "items": [
+        {
+          "id": "picks-for-you-1",
+          "name": {
+            "en": "Oreo Milkshake",
+            "ar": "ميلك شيك أوريو"
+          },
+          "description": {
+            "en": "Creamy milk blended with crushed chocolate sandwich cookies for a sweet and crunchy texture.",
+            "ar": "حليب كريمي ممزوج ببسكويت الشوكولاتة المطحون لقوام حلو ومقرمش."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-01.jpeg",
+          "popular": false
+        },
+        {
+          "id": "picks-for-you-2",
+          "name": {
+            "en": "Vanilla Milkshake",
+            "ar": "ميلك شيك فانيليا"
+          },
+          "description": {
+            "en": "Creamy milk blended with natural vanilla extract for a smooth and simple sweet beverage.",
+            "ar": "حليب كريمي ممزوج بخلاصة الفانيليا الطبيعية لمشروب حلو ناعم وبسيط."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-02.jpeg",
+          "popular": false
+        },
+        {
+          "id": "picks-for-you-3",
+          "name": {
+            "en": "Caramel Frappuccino",
+            "ar": "فرابتشينو كراميل"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with sweet caramel syrup for a rich chilled treat.",
+            "ar": "قهوة وحليب وثلج ممزوجة بشراب الكراميل الحلو لمشروب بارد غني."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-03.jpeg",
+          "popular": false
+        },
+        {
+          "id": "picks-for-you-4",
+          "name": {
+            "en": "Pistachio Milkshake",
+            "ar": "ميلك شيك فستق"
+          },
+          "description": {
+            "en": "Creamy milk blended with roasted pistachio paste for a nutty and refreshing sweet drink.",
+            "ar": "حليب كريمي ممزوج بمعجون الفستق المحمص لمشروب حلو منعش بنكهة المكسرات."
+          },
+          "price": 90,
+          "imageUrl": "/images/item-04.jpeg",
+          "popular": false
+        },
+        {
+          "id": "picks-for-you-5",
+          "name": {
+            "en": "Mango Smoothie",
+            "ar": "سموذي مانجو"
+          },
+          "description": {
+            "en": "Blended ripe mango pulp with ice for a thick and naturally sweet tropical drink.",
+            "ar": "لب المانجو الناضجة ممزوجاً بالثلج لمشروب استوائي كثيف وحلو بشكل طبيعي."
+          },
+          "price": 75,
+          "imageUrl": "/images/item-05.jpeg",
+          "popular": false
+        },
+        {
+          "id": "picks-for-you-6",
+          "name": {
+            "en": "Mix Berry Smoothie",
+            "ar": "سموذي توت مكس"
+          },
+          "description": {
+            "en": "Blended assortment of berries with ice for a refreshing and antioxidant rich fruit drink.",
+            "ar": "مزيج من التوت ممزوجاً بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-06.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee",
+      "name": {
+        "en": "Hot Coffee",
+        "ar": "قهوة ساخنة"
+      },
+      "items": [
+        {
+          "id": "hot-coffee-1",
+          "name": {
+            "en": "French Coffee",
+            "ar": "قهوة فرنسية"
+          },
+          "description": {
+            "en": "Rich roasted coffee beans blended with steamed milk for a smooth and creamy texture.",
+            "ar": "حبوب قهوة محمصة غنية ممزوجة بالحليب المبخر لقوام ناعم وكريمي."
+          },
+          "price": 35,
+          "imageUrl": "/images/item-07.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-2",
+          "name": {
+            "en": "Hazelnut Coffee",
+            "ar": "قهوة بالبندق"
+          },
+          "description": {
+            "en": "Roasted coffee beans infused with natural hazelnut flavoring for a nutty and aromatic profile.",
+            "ar": "حبوب قهوة محمصة بنكهة البندق الطبيعية لمذاق عطري بنكهة المكسرات."
+          },
+          "price": 45,
+          "imageUrl": "/images/item-08.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-3",
+          "name": {
+            "en": "Nutella Hazelnut Coffee",
+            "ar": "قهوة نوتيلا بالبندق"
+          },
+          "description": {
+            "en": "Roasted coffee beans combined with creamy hazelnut cocoa spread for a sweet indulgent drink.",
+            "ar": "حبوب قهوة محمصة مع كريمة النوتيلا بالبندق والكاكاو لمشروب حلو ومدلل."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-09.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-4",
+          "name": {
+            "en": "Cappuccino",
+            "ar": "كابتشينو"
+          },
+          "description": {
+            "en": "Espresso shot topped with equal parts steamed milk and thick airy milk foam layer.",
+            "ar": "شوت إسبريسو مع كميات متساوية من الحليب المبخر ورغوة الحليب السميكة."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-10.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-5",
+          "name": {
+            "en": "Latte",
+            "ar": "لاتيه"
+          },
+          "description": {
+            "en": "Espresso shot mixed with a generous amount of steamed milk and light milk foam.",
+            "ar": "شوت إسبريسو مع كمية وفيرة من الحليب المبخر ورغوة حليب خفيفة."
+          },
+          "price": 45,
+          "imageUrl": "/images/item-11.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-6",
+          "name": {
+            "en": "Flat White",
+            "ar": "فلات وايت"
+          },
+          "description": {
+            "en": "Espresso shot combined with silky steamed milk for a smooth and balanced coffee taste.",
+            "ar": "شوت إسبريسو مع حليب مبخر ناعم لمذاق قهوة متوازن وسلس."
+          },
+          "price": 45,
+          "imageUrl": "/images/item-12.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-7",
+          "name": {
+            "en": "American Coffee / Americano",
+            "ar": "قهوة أمريكية / أميريكانو"
+          },
+          "description": {
+            "en": "Espresso shot diluted with hot water to create a mild and smooth coffee beverage.",
+            "ar": "شوت إسبريسو ممزوج بالماء الساخن لمشروب قهوة خفيف وناعم."
+          },
+          "price": 40,
+          "imageUrl": "/images/item-13.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-8",
+          "name": {
+            "en": "Spanish Latte",
+            "ar": "لاتيه إسباني"
+          },
+          "description": {
+            "en": "Espresso mixed with steamed milk and sweetened condensed milk for a rich creamy finish.",
+            "ar": "إسبريسو مع حليب مبخر وحليب مكثف محلى لنهاية كريمية غنية."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-14.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-9",
+          "name": {
+            "en": "White Mocha",
+            "ar": "موكا أبيض"
+          },
+          "description": {
+            "en": "Espresso combined with white chocolate sauce and steamed milk for a sweet creamy treat.",
+            "ar": "إسبريسو مع صوص الشوكولاتة البيضاء والحليب المبخر لمذاق حلو وكريمي."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-15.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-10",
+          "name": {
+            "en": "Dark Mocha",
+            "ar": "موكا داكن"
+          },
+          "description": {
+            "en": "Espresso blended with dark chocolate sauce and steamed milk for a deep cocoa flavor.",
+            "ar": "إسبريسو ممزوج بصوص الشوكولاتة الداكنة والحليب المبخر لنكهة كاكاو عميقة."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-16.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "ice-coffee",
+      "name": {
+        "en": "Ice Coffee",
+        "ar": "قهوة مثلجة"
+      },
+      "items": [
+        {
+          "id": "ice-coffee-1",
+          "name": {
+            "en": "Iced Latte",
+            "ar": "لاتيه مثلج"
+          },
+          "description": {
+            "en": "Chilled espresso served over ice with cold milk for a refreshing and smooth drink.",
+            "ar": "إسبريسو بارد مع ثلج وحليب بارد لمشروب منعش وناعم."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-17.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-2",
+          "name": {
+            "en": "Iced Spanish Latte",
+            "ar": "لاتيه إسباني مثلج"
+          },
+          "description": {
+            "en": "Chilled espresso with cold milk and sweetened condensed milk served over ice for sweetness.",
+            "ar": "إسبريسو بارد مع حليب بارد وحليب مكثف محلى على ثلج لمذاق حلو."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-18.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-3",
+          "name": {
+            "en": "Iced Caramel Macchiato",
+            "ar": "ماكياتو كراميل مثلج"
+          },
+          "description": {
+            "en": "Chilled milk and espresso layered with sweet caramel syrup served over ice for refreshment.",
+            "ar": "حليب بارد وإسبريسو بطبقات من شراب الكراميل الحلو على ثلج للانتعاش."
+          },
+          "price": 60,
+          "imageUrl": "/images/item-19.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-4",
+          "name": {
+            "en": "Iced White Mocha",
+            "ar": "موكا أبيض مثلج"
+          },
+          "description": {
+            "en": "Chilled espresso with white chocolate sauce and cold milk served over ice for indulgence.",
+            "ar": "إسبريسو بارد مع صوص الشوكولاتة البيضاء وحليب بارد على ثلج."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-20.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-5",
+          "name": {
+            "en": "Iced Dark Mocha",
+            "ar": "موكا داكن مثلج"
+          },
+          "description": {
+            "en": "Chilled espresso with dark chocolate sauce and cold milk served over ice for richness.",
+            "ar": "إسبريسو بارد مع صوص الشوكولاتة الداكنة وحليب بارد على ثلج."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-21.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-6",
+          "name": {
+            "en": "Iced Americano",
+            "ar": "أميريكانو مثلج"
+          },
+          "description": {
+            "en": "Espresso diluted with cold water and served over ice for a crisp coffee experience.",
+            "ar": "إسبريسو ممزوج بماء بارد ومقدم على ثلج لتجربة قهوة منعشة."
+          },
+          "price": 45,
+          "imageUrl": "/images/item-22.jpeg",
+          "popular": false
+        },
+        {
+          "id": "ice-coffee-7",
+          "name": {
+            "en": "Iced Pistachio Latte",
+            "ar": "لاتيه فستق مثلج"
+          },
+          "description": {
+            "en": "Chilled espresso with cold milk and pistachio syrup served over ice for nutty flavor.",
+            "ar": "إسبريسو بارد مع حليب بارد وشراب الفستق على ثلج لنكهة مكسرات رائعة."
+          },
+          "price": 85,
+          "imageUrl": "/images/item-23.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "milkshake",
+      "name": {
+        "en": "Milkshake",
+        "ar": "ميلك شيك"
+      },
+      "items": [
+        {
+          "id": "milkshake-1",
+          "name": {
+            "en": "Oreo Milkshake",
+            "ar": "ميلك شيك أوريو"
+          },
+          "description": {
+            "en": "Creamy milk blended with crushed chocolate sandwich cookies for a sweet and crunchy texture.",
+            "ar": "حليب كريمي ممزوج ببسكويت الشوكولاتة المطحون لقوام حلو ومقرمش."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-01.jpeg",
+          "popular": false
+        },
+        {
+          "id": "milkshake-2",
+          "name": {
+            "en": "Nutella Milkshake",
+            "ar": "ميلك شيك نوتيلا"
+          },
+          "description": {
+            "en": "Creamy milk blended with hazelnut cocoa spread for a rich and decadent chocolate drink.",
+            "ar": "حليب كريمي ممزوج بكريمة النوتيلا بالبندق والكاكاو لمشروب شوكولاتة غني."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-24.jpeg",
+          "popular": false
+        },
+        {
+          "id": "milkshake-3",
+          "name": {
+            "en": "Lotus Milkshake",
+            "ar": "ميلك شيك لوتس"
+          },
+          "description": {
+            "en": "Creamy milk blended with spiced caramel biscuit spread for a unique and sweet flavor.",
+            "ar": "حليب كريمي ممزوج بكريمة بسكويت الكراميل المتبل لنكهة حلوة ومميزة."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-25.jpeg",
+          "popular": false
+        },
+        {
+          "id": "milkshake-4",
+          "name": {
+            "en": "Pistachio Milkshake",
+            "ar": "ميلك شيك فستق"
+          },
+          "description": {
+            "en": "Creamy milk blended with roasted pistachio paste for a nutty and refreshing sweet drink.",
+            "ar": "حليب كريمي ممزوج بمعجون الفستق المحمص لمشروب حلو منعش بنكهة المكسرات."
+          },
+          "price": 90,
+          "imageUrl": "/images/item-26.jpeg",
+          "popular": false
+        },
+        {
+          "id": "milkshake-5",
+          "name": {
+            "en": "Vanilla Milkshake",
+            "ar": "ميلك شيك فانيليا"
+          },
+          "description": {
+            "en": "Creamy milk blended with natural vanilla extract for a smooth and simple sweet beverage.",
+            "ar": "حليب كريمي ممزوج بخلاصة الفانيليا الطبيعية لمشروب حلو ناعم وبسيط."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-27.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "soda",
+      "name": {
+        "en": "Soda",
+        "ar": "سودا"
+      },
+      "items": [
+        {
+          "id": "soda-1",
+          "name": {
+            "en": "Blueberry Soda",
+            "ar": "سودا توت أزرق"
+          },
+          "description": {
+            "en": "Sparkling carbonated water infused with sweet blueberry syrup for a refreshing and fruity drink.",
+            "ar": "مياه غازية فوارة بشراب التوت الأزرق الحلو لمشروب فواكه منعش."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-28.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-2",
+          "name": {
+            "en": "Pineapple Soda",
+            "ar": "سودا أناناس"
+          },
+          "description": {
+            "en": "Sparkling carbonated water infused with tropical pineapple syrup for a sweet and tangy drink.",
+            "ar": "مياه غازية فوارة بشراب الأناناس الاستوائي لمشروب حلو ومنعش."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-29.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-3",
+          "name": {
+            "en": "Passion Soda",
+            "ar": "سودا باشن فروت"
+          },
+          "description": {
+            "en": "Sparkling carbonated water flavored with exotic passion fruit syrup for a vibrant tropical taste.",
+            "ar": "مياه غازية فوارة بنكهة شراب الباشن فروت الاستوائية لمذاق حيوي."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-30.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-4",
+          "name": {
+            "en": "Pina Colada",
+            "ar": "بينا كولادا"
+          },
+          "description": {
+            "en": "Refreshing blend of pineapple juice and coconut cream served as a chilled carbonated drink.",
+            "ar": "مزيج منعش من عصير الأناناس وكريمة جوز الهند مقدم كمشروب غازي بارد."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-31.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-5",
+          "name": {
+            "en": "Blueberry Strawberry Mint",
+            "ar": "توت أزرق وفراولة ونعناع"
+          },
+          "description": {
+            "en": "Sparkling water with blueberry, strawberry, and fresh mint leaves for a cooling fruity drink.",
+            "ar": "مياه غازية بالتوت الأزرق والفراولة وأوراق النعناع الطازجة لمشروب فواكه بارد."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-32.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "smoothie",
+      "name": {
+        "en": "Smoothie",
+        "ar": "سموذي"
+      },
+      "items": [
+        {
+          "id": "smoothie-1",
+          "name": {
+            "en": "Blueberry Smoothie",
+            "ar": "سموذي توت أزرق"
+          },
+          "description": {
+            "en": "Blended blueberries with ice and a touch of sweetener for a thick fruity drink.",
+            "ar": "توت أزرق ممزوج بالثلج ولمسة من المحلى لمشروب فواكه كثيف."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-33.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-2",
+          "name": {
+            "en": "Mix Berry Smoothie",
+            "ar": "سموذي توت مكس"
+          },
+          "description": {
+            "en": "Blended assortment of berries with ice for a refreshing and antioxidant rich fruit drink.",
+            "ar": "مزيج من التوت ممزوجاً بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-34.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-3",
+          "name": {
+            "en": "Pina Colada Smoothie",
+            "ar": "سموذي بينا كولادا"
+          },
+          "description": {
+            "en": "Blended pineapple and coconut cream with ice for a creamy tropical fruit refreshment.",
+            "ar": "أناناس وكريمة جوز الهند ممزوجة بالثلج لمشروب استوائي كريمي منعش."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-35.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-4",
+          "name": {
+            "en": "Blue Passion Smoothie",
+            "ar": "سموذي بلو باشن"
+          },
+          "description": {
+            "en": "Blended blue fruit and passion fruit with ice for a vibrant and exotic drink.",
+            "ar": "فاكهة زرقاء وباشن فروت ممزوجة بالثلج لمشروب حيوي وغريب."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-36.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-5",
+          "name": {
+            "en": "Blueberry Strawberry Mint Smoothie",
+            "ar": "سموذي توت أزرق وفراولة ونعناع"
+          },
+          "description": {
+            "en": "Blended blueberries, strawberries, and fresh mint with ice for a cooling fruity experience.",
+            "ar": "توت أزرق وفراولة ونعناع طازج ممزوجة بالثلج لتجربة فواكه باردة ومنعشة."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-37.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-6",
+          "name": {
+            "en": "Mango Smoothie",
+            "ar": "سموذي مانجو"
+          },
+          "description": {
+            "en": "Blended ripe mango pulp with ice for a thick and naturally sweet tropical drink.",
+            "ar": "لب المانجو الناضجة ممزوجاً بالثلج لمشروب استوائي كثيف وحلو بشكل طبيعي."
+          },
+          "price": 75,
+          "imageUrl": "/images/item-38.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-7",
+          "name": {
+            "en": "Strawberry Smoothie",
+            "ar": "سموذي فراولة"
+          },
+          "description": {
+            "en": "Blended fresh strawberries with ice for a classic and refreshing sweet fruit beverage.",
+            "ar": "فراولة طازجة ممزوجة بالثلج لمشروب فواكه حلو كلاسيكي ومنعش."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-39.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-8",
+          "name": {
+            "en": "Kiwi Smoothie",
+            "ar": "سموذي كيوي"
+          },
+          "description": {
+            "en": "Blended fresh kiwi fruit with ice for a tart and refreshing green fruit drink.",
+            "ar": "كيوي طازج ممزوج بالثلج لمشروب فاكهة خضراء منعش وحامض قليلاً."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-40.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-9",
+          "name": {
+            "en": "Kiwi Mango Smoothie",
+            "ar": "سموذي كيوي مانجو"
+          },
+          "description": {
+            "en": "Blended kiwi and mango pulp with ice for a sweet and tangy tropical fusion.",
+            "ar": "كيوي ولب مانجو ممزوجان بالثلج لمزيج استوائي حلو ومنعش."
+          },
+          "price": 75,
+          "imageUrl": "/images/item-41.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "frappuccino",
+      "name": {
+        "en": "Frappuccino",
+        "ar": "فرابتشينو"
+      },
+      "items": [
+        {
+          "id": "frappuccino-1",
+          "name": {
+            "en": "Classic Frappuccino",
+            "ar": "فرابتشينو كلاسيك"
+          },
+          "description": {
+            "en": "Blended coffee with milk and ice for a smooth and refreshing chilled coffee drink.",
+            "ar": "قهوة ممزوجة بالحليب والثلج لمشروب قهوة بارد ناعم ومنعش."
+          },
+          "price": 65,
+          "imageUrl": "/images/item-42.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-2",
+          "name": {
+            "en": "Caramel Frappuccino",
+            "ar": "فرابتشينو كراميل"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with sweet caramel syrup for a rich chilled treat.",
+            "ar": "قهوة وحليب وثلج مع شراب الكراميل الحلو لمشروب بارد غني."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-43.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-3",
+          "name": {
+            "en": "Hazelnut Frappuccino",
+            "ar": "فرابتشينو بندق"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with nutty hazelnut syrup for a flavorful chilled drink.",
+            "ar": "قهوة وحليب وثلج مع شراب البندق لمشروب بارد بنكهة مميزة."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-44.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-4",
+          "name": {
+            "en": "Vanilla Frappuccino",
+            "ar": "فرابتشينو فانيليا"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with sweet vanilla syrup for a smooth chilled beverage.",
+            "ar": "قهوة وحليب وثلج مع شراب الفانيليا الحلو لمشروب بارد ناعم."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-45.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-5",
+          "name": {
+            "en": "Chocolate Frappuccino",
+            "ar": "فرابتشينو شوكولاتة"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with chocolate syrup for a decadent chilled cocoa drink.",
+            "ar": "قهوة وحليب وثلج مع شراب الشوكولاتة لمشروب كاكاو بارد فاخر."
+          },
+          "price": 70,
+          "imageUrl": "/images/item-46.jpeg",
+          "popular": false
+        }
+      ]
+    }
+  ]
+}

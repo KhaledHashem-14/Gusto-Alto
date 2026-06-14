@@ -1,0 +1,154 @@
+/* ──────────────────────────────────────
+   Google Fonts — load BEFORE Tailwind
+   ────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Kufi+Arabic:wght@400;500;700&display=swap");
+
+@import "tailwindcss";
+
+/* ──────────────────────────────────────
+   Gusto Alto — Design Tokens (Tailwind v4)
+   ────────────────────────────────────── */
+@theme {
+  --color-midnight: #0c1330;
+  --color-midnight-90: rgba(12, 19, 48, 0.92);
+  --color-midnight-70: rgba(12, 19, 48, 0.7);
+  --color-gold: #ebbd7f;
+  --color-gold-dim: rgba(235, 189, 127, 0.10);
+  --color-gold-glow: rgba(235, 189, 127, 0.25);
+  --color-espresso: #4a1a0c;
+  --color-espresso-light: #6b3422;
+  --color-cream: #fff9f0;
+  --color-cream-warm: #fdf2e3;
+
+  --font-en: "Cormorant Garamond", serif;
+  --font-ar: "Noto Kufi Arabic", sans-serif;
+}
+
+/* ──────────────────────────────────────
+   Global Reset & Base
+   ────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 8rem;
+}
+
+body {
+  font-family: var(--font-en);
+  /* FIX 1: was var(--font-sans) which doesn't exist */
+  background-color: var(--color-cream);
+  color: var(--color-midnight);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* FIX 2: Apply Arabic font when RTL is active */
+[dir="rtl"] body,
+[dir="rtl"] {
+  font-family: var(--font-ar);
+}
+
+/* ──────────────────────────────────────
+   Scrollbar Styling
+   ────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 999px;
+}
+
+/* ──────────────────────────────────────
+   Tab Scroll Container
+   ────────────────────────────────────── */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ──────────────────────────────────────
+   Micro-animations
+   ────────────────────────────────────── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(235, 189, 127, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 12px 4px rgba(235, 189, 127, 0.15);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg,
+      var(--color-cream-warm) 25%,
+      var(--color-gold-dim) 50%,
+      var(--color-cream-warm) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+}
+
+/* ──────────────────────────────────────
+   Popular Badge Pulse
+   ────────────────────────────────────── */
+.badge-popular {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+/* ──────────────────────────────────────
+   Image placeholder while loading
+   ────────────────────────────────────── */
+.img-placeholder {
+  background: linear-gradient(135deg,
+      var(--color-cream-warm) 0%,
+      var(--color-gold-dim) 100%);
+}

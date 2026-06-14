@@ -10,51 +10,48 @@ const COLORS = {
   espresso: "#4a1a0c",
 };
 
-/* ═══════════════════════════════════════════
-   FIX 3: Font helpers — instead of relying on
-   Tailwind's font-serif/font-sans (which resolve
-   to default stacks), use inline style to pull
-   the correct CSS variable per language.
-   ═══════════════════════════════════════════ */
 const fontDisplay = (lang) => ({
-  fontFamily: lang === "ar" ? "var(--font-ar)" : "var(--font-en)",
+  fontFamily: lang === "ar" ? '"Noto Kufi Arabic", sans-serif' : '"Cormorant Garamond", serif',
 });
 
 const fontBody = (lang) => ({
-  fontFamily: lang === "ar" ? "var(--font-ar)" : "var(--font-en)",
+  fontFamily: lang === "ar" ? '"Noto Kufi Arabic", sans-serif' : '"Cormorant Garamond", serif',
 });
 
 /* ═══════════════════════════════════════════
-   HEADER COMPONENT
+   HEADER
    ═══════════════════════════════════════════ */
 function Header({ lang, onToggleLang }) {
   const isAr = lang === "ar";
-
   return (
-    <header className="relative pb-12 flex flex-col items-center" style={{ padding: "35px", backgroundColor: COLORS.midnight }}>
-      {/* Language Toggle in Corner */}
+    <header
+      className="relative flex flex-col items-center"
+      style={{ padding: "35px", backgroundColor: COLORS.midnight }}
+    >
       <button
         onClick={onToggleLang}
         className="absolute top-0 end-0 transition-colors p-2 flex items-center justify-center z-50"
         aria-label={isAr ? "Switch to English" : "التبديل إلى العربية"}
       >
-        <span className="text-lg font-medium tracking-widest" style={{ padding: "10px", color: COLORS.gold, ...fontBody(lang) }}>
+        <span
+          className="text-lg font-medium tracking-widest"
+          style={{ padding: "10px", color: COLORS.gold, ...fontBody(lang) }}
+        >
           {isAr ? "EN" : "ع"}
         </span>
       </button>
 
-      {/* Brand Identity */}
       <div className="text-center mt-4">
         <h1
           className="text-3xl font-bold tracking-widest uppercase"
-          style={{ color: COLORS.gold, ...fontDisplay("en") }} /* brand name always EN font */
+          style={{ color: COLORS.gold, ...fontDisplay("en") }}
         >
           Gusto Alto
         </h1>
-        <div className="mt-6 h-[1px] w-55 mx-auto bg-gold/40" style={{ margin: "5px" }}></div>
+        <div className="h-px w-12 mx-auto bg-[#ebbd7f]/60" style={{ margin: "10px auto" }} />
         <p
-          className="mt-3 text-xl font-medium tracking-[0.1em]"
-          style={{ color: COLORS.gold, ...fontDisplay("ar") }} /* Arabic subtitle always AR font */
+          className="text-xl font-medium tracking-[0.1em]"
+          style={{ color: COLORS.gold, ...fontDisplay("ar") }}
         >
           جوستو التو
         </p>
@@ -70,7 +67,7 @@ function CategoryTabs({ categories, activeId, lang, onSelect }) {
   const scrollRef = useRef(null);
   const activeTabRef = useRef(null);
 
-  useEffect(() => {
+  const centerActiveTab = useCallback(() => {
     if (activeTabRef.current && scrollRef.current) {
       const container = scrollRef.current;
       const tab = activeTabRef.current;
@@ -78,11 +75,24 @@ function CategoryTabs({ categories, activeId, lang, onSelect }) {
         tab.offsetLeft - container.offsetWidth / 2 + tab.offsetWidth / 2;
       container.scrollTo({ left: scrollLeft, behavior: "smooth" });
     }
-  }, [activeId]);
+  }, []);
+
+  // Center active tab whenever it changes (scroll-driven or click-driven)
+  useEffect(() => {
+    setTimeout(centerActiveTab, 50);
+  }, [activeId, centerActiveTab]);
+
+  const handleSelect = useCallback(
+    (catId) => {
+      onSelect(catId);
+      setTimeout(centerActiveTab, 50);
+    },
+    [onSelect, centerActiveTab]
+  );
 
   return (
     <nav
-      className="sticky top-0 z-40 backdrop-blur-md border-b border-stone-200/50 mx-[-2rem] px-8 mb-12"
+      className="sticky top-0 z-40 mx-[-2rem]"
       style={{ boxShadow: "0 2px 5px rgba(12,19,48,0.18)" }}
     >
       <div
@@ -91,8 +101,9 @@ function CategoryTabs({ categories, activeId, lang, onSelect }) {
         role="tablist"
         style={{
           backgroundColor: COLORS.gold,
-          padding: "5px",
-          boxShadow: "inset 0 0 0 1px rgba(235,189,127,0.18), 0 8px 24px rgba(12,19,48,0.18)",
+          padding: "10px 16px",
+          boxShadow:
+            "inset 0 0 0 1px rgba(235,189,127,0.18), 0 8px 24px rgba(12,19,48,0.18)",
         }}
       >
         {categories.map((cat) => {
@@ -103,12 +114,12 @@ function CategoryTabs({ categories, activeId, lang, onSelect }) {
               ref={isActive ? activeTabRef : null}
               role="tab"
               aria-selected={isActive}
-              onClick={() => onSelect(cat.id)}
-              className="relative shrink-0 text-[14px] uppercase tracking-[0.15em] transition-colors duration-300 pb-2"
+              onClick={() => handleSelect(cat.id)}
+              className="relative shrink-0 text-[14px] uppercase tracking-[0.15em] transition-colors duration-200 pb-2 whitespace-nowrap"
               style={{
                 color: isActive ? COLORS.midnight : COLORS.espresso,
                 fontWeight: isActive ? 700 : 500,
-                ...fontBody(lang), /* FIX 3 applied */
+                ...fontBody(lang),
               }}
             >
               {cat.name[lang]}
@@ -139,7 +150,6 @@ function MenuItem({ item, lang, index }) {
         className="animate-fade-in-up flex gap-6 py-7 border-b border-stone-100 last:border-b-0"
         style={{ animationDelay: `${index * 80}ms` }}
       >
-        {/* Image Container */}
         <div className="relative w-28 h-28 shrink-0 overflow-hidden rounded-2xl bg-stone-50 border border-stone-200/60">
           {!imgLoaded && (
             <div className="absolute inset-0 animate-shimmer bg-stone-100" />
@@ -149,18 +159,18 @@ function MenuItem({ item, lang, index }) {
             alt={item.name[lang]}
             loading="lazy"
             onLoad={() => setImgLoaded(true)}
-            className={`w-full h-full object-cover transition-opacity duration-700 ${imgLoaded ? "opacity-100" : "opacity-0"}`}
+            className={`w-full h-full object-cover transition-opacity duration-700 ${imgLoaded ? "opacity-100" : "opacity-0"
+              }`}
           />
         </div>
 
-        {/* Content */}
         <div className="flex flex-1 flex-col justify-center min-w-0 py-2">
           <div className="flex justify-between items-start gap-4">
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-2 flex-wrap">
                 <h3
                   className="font-bold text-xl leading-tight tracking-wide text-[#0c1330]"
-                  style={fontDisplay(lang)} /* FIX 3 applied */
+                  style={fontDisplay(lang)}
                 >
                   {item.name[lang]}
                 </h3>
@@ -180,7 +190,7 @@ function MenuItem({ item, lang, index }) {
               </div>
               <p
                 className="mt-2 text-stone-500 font-normal text-sm leading-relaxed max-w-[95%]"
-                style={fontBody(lang)} /* FIX 3 applied */
+                style={fontBody(lang)}
               >
                 {item.description[lang]}
               </p>
@@ -209,12 +219,11 @@ function MenuSection({ category, lang }) {
     <section
       id={`section-${category.id}`}
       aria-labelledby={`heading-${category.id}`}
-      className="mb-20 scroll-mt-28"
     >
       <h2
         id={`heading-${category.id}`}
-        className="text-sm font-bold tracking-[0.25em] uppercase mb-8 opacity-80 text-[#0c1330]"
-        style={{ padding: "5px", ...fontDisplay(lang) }} /* FIX 3 applied */
+        className="text-sm font-bold tracking-[0.25em] uppercase opacity-80 text-[#0c1330]"
+        style={{ padding: "32px 5px 24px", ...fontDisplay(lang) }}
       >
         {category.name[lang]}
       </h2>
@@ -233,17 +242,18 @@ function MenuSection({ category, lang }) {
 function Footer({ lang }) {
   const isAr = lang === "ar";
   return (
-    <footer className="pb-12 pt-12 text-center border-t border-stone-200/60 mt-10">
+    <footer className="pt-12 pb-12 text-center border-t border-stone-200/60">
       <p
         className="text-base font-bold tracking-[0.2em] uppercase text-[#0c1330]"
-        style={fontDisplay("en")} /* brand name always EN font */
+        style={fontDisplay("en")}
       >
         Gusto Alto
       </p>
-      <p className="mt-3 text-xs text-stone-400 font-medium uppercase tracking-widest" style={fontBody(lang)}>
-        {isAr
-          ? "© ٢٠٢٦ جميع الحقوق محفوظة"
-          : "© 2026 All Rights Reserved"}
+      <p
+        className="mt-3 text-xs text-stone-400 font-medium uppercase tracking-widest"
+        style={fontBody(lang)}
+      >
+        {isAr ? "© ٢٠٢٦ جميع الحقوق محفوظة" : "© 2026 All Rights Reserved"}
       </p>
     </footer>
   );
@@ -255,8 +265,10 @@ function Footer({ lang }) {
 export default function App() {
   const [lang, setLang] = useState("ar");
   const [activeCategory, setActiveCategory] = useState(
-    menuData.categories[0].id,
+    menuData.categories[0].id
   );
+  const isScrollingTo = useRef(false);
+  const scrollTimer = useRef(null);
 
   const isAr = lang === "ar";
 
@@ -265,49 +277,81 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const sections = menuData.categories.map((cat) =>
-      document.getElementById(`section-${cat.id}`),
-    );
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-
-        if (visible.length > 0) {
-          const id = visible[0].target.id.replace("section-", "");
-          setActiveCategory(id);
-        }
-      },
-      {
-        rootMargin: "-100px 0px -60% 0px",
-        threshold: [0, 0.2, 0.5, 0.8],
-      },
-    );
-
-    sections.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
-  const handleTabSelect = useCallback((catId) => {
-    setActiveCategory(catId);
-    const el = document.getElementById(`section-${catId}`);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }, []);
-
-  useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = isAr ? "rtl" : "ltr";
   }, [lang, isAr]);
 
+  /* ─────────────────────────────────────────
+     SCROLLSPY
+     On every scroll event, find the last
+     category heading whose top has passed
+     the bottom edge of the sticky navbar.
+  ───────────────────────────────────────── */
+  useEffect(() => {
+    const NAV_HEIGHT = 48;
+
+    const onScroll = () => {
+      if (isScrollingTo.current) return;
+
+      let currentId = menuData.categories[0].id;
+
+      for (const cat of menuData.categories) {
+        const el = document.getElementById(`heading-${cat.id}`);
+        if (!el) continue;
+        const top = el.getBoundingClientRect().top;
+        if (top <= NAV_HEIGHT + 1) {
+          currentId = cat.id;
+        }
+      }
+
+      setActiveCategory(currentId);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll(); // set correct state on mount
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  /* ─────────────────────────────────────────
+     TAB CLICK — scroll to first item card
+     Suppresses scrollspy during animation
+     so the active tab doesn't flicker.
+  ───────────────────────────────────────── */
+  const handleTabSelect = useCallback((catId) => {
+    setActiveCategory(catId);
+
+    const section = document.getElementById(`section-${catId}`);
+    if (!section) return;
+
+    const firstItem = section.querySelector("article");
+    const target = firstItem || section;
+    const NAV_HEIGHT = 48;
+    const targetTop =
+      target.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT - 8;
+
+    isScrollingTo.current = true;
+    clearTimeout(scrollTimer.current);
+    window.scrollTo({ top: targetTop, behavior: "smooth" });
+
+    // Re-enable scrollspy after smooth scroll settles
+    scrollTimer.current = setTimeout(() => {
+      isScrollingTo.current = false;
+    }, 800);
+  }, []);
+
+  /* ─────────────────────────────────────────
+     LAST CATEGORY PADDING
+     Pads the last category so its heading
+     can scroll all the way to the top.
+  ───────────────────────────────────────── */
+  const lastCategoryPadding = "calc(100dvh - 48px)";
+
   return (
-    <div className="mx-auto max-w-md min-h-dvh px-8 py-12" style={{ backgroundColor: "#fff9f0ff" }}>
+    <div
+      className="mx-auto max-w-md min-h-dvh px-8"
+      style={{ backgroundColor: "#fff9f0ff" }}
+    >
       <Header lang={lang} onToggleLang={toggleLang} />
 
       <CategoryTabs
@@ -318,9 +362,17 @@ export default function App() {
       />
 
       <main>
-        {menuData.categories.map((cat) => (
-          <MenuSection key={cat.id} category={cat} lang={lang} />
-        ))}
+        {menuData.categories.map((cat, idx) => {
+          const isLast = idx === menuData.categories.length - 1;
+          return (
+            <div
+              key={cat.id}
+              style={isLast ? { paddingBottom: lastCategoryPadding } : undefined}
+            >
+              <MenuSection category={cat} lang={lang} />
+            </div>
+          );
+        })}
       </main>
 
       <Footer lang={lang} />

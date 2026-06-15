@@ -8,6 +8,62 @@
       },
       "items": [
         {
+          "id": "hot-coffee-11",
+          "name": {
+            "en": "Turkish Coffee Single",
+            "ar": "قهوة تركي سنجل"
+          },
+          "description": {
+            "en": "Traditional finely ground Turkish coffee, brewed slowly for a rich and authentic flavor.",
+            "ar": "قهوة تركية تقليدية مطحونة ناعماً، تُحضر ببطء لنكهة غنية وأصيلة."
+          },
+          "price": 25,
+          "imageUrl": "/images/turkish-coffee.png",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-12",
+          "name": {
+            "en": "Turkish Coffee Double",
+            "ar": "قهوة تركي دبل"
+          },
+          "description": {
+            "en": "A double shot of traditional Turkish coffee, offering a deeper and more intense aromatic blend.",
+            "ar": "جرعة مضاعفة من القهوة التركية التقليدية، لخلطة عطرية أعمق وأكثر تركيزاً."
+          },
+          "price": 40,
+          "imageUrl": "/images/double-turkish-coffee.png",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-13",
+          "name": {
+            "en": "Espresso Single",
+            "ar": "اسبريسو سنجل"
+          },
+          "description": {
+            "en": "A concentrated single shot of rich espresso, extracted perfectly with a premium golden crema.",
+            "ar": "جرعة مركزة واحدة من الاسبريسو الغني، مستخلصة بدقة مع كريمة ذهبية فاخرة."
+          },
+          "price": 50,
+          "imageUrl": "/images/single-espresso.png",
+          "popular": false
+        },
+        {
+          "id": "hot-coffee-14",
+          "name": {
+            "en": "Espresso Double",
+            "ar": "اسبريسو دبل"
+          },
+          "description": {
+            "en": "A bold, intense double shot of espresso crafted from premium roasted coffee beans.",
+            "ar": "جرعة مضاعفة قوية ومكثفة من الاسبريسو، محضرة من حبوب البن المحمصة الفاخرة."
+          },
+          "price": 70,
+          "imageUrl": "/images/espresso.png",
+          "popular": false
+        },
+        {
           "id": "hot-coffee-1",
           "name": {
             "en": "French Coffee",
@@ -109,7 +165,7 @@
           "id": "hot-coffee-8",
           "name": {
             "en": "Spanish Latte",
-            "ar": "لاتيه إسباني"
+            "ar": "سبانيش لاتيه"
           },
           "description": {
             "en": "Espresso mixed with steamed milk and sweetened condensed milk for a rich creamy finish.",
@@ -174,7 +230,7 @@
           "id": "ice-coffee-2",
           "name": {
             "en": "Iced Spanish Latte",
-            "ar": "لاتيه إسباني مثلج"
+            "ar": "ايس سبانيش لاتيه"
           },
           "description": {
             "en": "Chilled espresso with cold milk and sweetened condensed milk served over ice for sweetness.",
@@ -339,14 +395,14 @@
       "id": "soda",
       "name": {
         "en": "Soda",
-        "ar": "سودا"
+        "ar": "صودا"
       },
       "items": [
         {
           "id": "soda-1",
           "name": {
             "en": "Blueberry Soda",
-            "ar": "سودا توت أزرق"
+            "ar": "صودا توت أزرق"
           },
           "description": {
             "en": "Sparkling carbonated water infused with sweet blueberry syrup for a refreshing and fruity drink.",
@@ -360,7 +416,7 @@
           "id": "soda-2",
           "name": {
             "en": "Pineapple Soda",
-            "ar": "سودا أناناس"
+            "ar": "صودا أناناس"
           },
           "description": {
             "en": "Sparkling carbonated water infused with tropical pineapple syrup for a sweet and tangy drink.",
@@ -374,7 +430,7 @@
           "id": "soda-3",
           "name": {
             "en": "Passion Soda",
-            "ar": "سودا باشن فروت"
+            "ar": "صودا باشن فروت"
           },
           "description": {
             "en": "Sparkling carbonated water flavored with exotic passion fruit syrup for a vibrant tropical taste.",

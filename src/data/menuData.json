@@ -467,6 +467,146 @@
           "price": 50,
           "imageUrl": "/images/item-32.jpeg",
           "popular": false
+        },
+        {
+          "id": "soda-6",
+          "name": {
+            "en": "Classic Mojito",
+            "ar": "موهيتو كلاسيك"
+          },
+          "description": {
+            "en": "Sparkling carbonated water blended with fresh mint, lime, and a touch of sweetness for a classic refreshing drink.",
+            "ar": "مياه غازية فوارة ممزوجة بالنعناع الطازج والليمون ولمسة من الحلاوة لمشروب كلاسيكي منعش."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-47.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-7",
+          "name": {
+            "en": "Blueberry Mojito",
+            "ar": "بلو بيري موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, and sweet blueberry syrup for a fruity twist on a classic mojito.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون وشراب التوت الأزرق الحلو لنسخة فواكه من الموهيتو الكلاسيكي."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-48.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-8",
+          "name": {
+            "en": "Pineapple Mojito",
+            "ar": "اناناس موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, and tropical pineapple syrup for a sweet and tangy refreshment.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون وشراب الأناناس الاستوائي لمشروب حلو ومنعش."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-49.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-9",
+          "name": {
+            "en": "Pina Colada Mojito",
+            "ar": "بيناكولادا موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, pineapple, and coconut cream for a tropical mojito fusion.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون والأناناس وكريمة جوز الهند لمزيج موهيتو استوائي."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-50.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-10",
+          "name": {
+            "en": "Blue Curaçao Mojito",
+            "ar": "بلوكوراسو موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, and vibrant blue curaçao syrup for a striking citrus drink.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون وشراب البلوكوراسو الأزرق الحيوي لمشروب حمضيات لافت."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-51.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-11",
+          "name": {
+            "en": "Passion Fruit Mojito",
+            "ar": "باشون فروت موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, and exotic passion fruit syrup for a vibrant tropical mojito.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون وشراب الباشن فروت الاستوائي لموهيتو استوائي حيوي."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-52.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-12",
+          "name": {
+            "en": "Blueberry Strawberry Mint Mojito",
+            "ar": "بلوبيري فراولة نعناع موهيتو"
+          },
+          "description": {
+            "en": "Sparkling water with fresh mint, lime, blueberry, and strawberry syrup for a berry-packed mojito.",
+            "ar": "مياه غازية مع النعناع الطازج والليمون وشراب التوت الأزرق والفراولة لموهيتو غني بالتوت."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-53.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-13",
+          "name": {
+            "en": "Sunshine",
+            "ar": "صن شاين"
+          },
+          "description": {
+            "en": "Sparkling water blended with citrus juices and a hint of sweetness for a bright and cheerful drink.",
+            "ar": "مياه غازية ممزوجة بعصائر الحمضيات ولمسة من الحلاوة لمشروب مشرق ومبهج."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-54.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-14",
+          "name": {
+            "en": "Sunrise",
+            "ar": "صن رايز"
+          },
+          "description": {
+            "en": "Sparkling water with orange juice and a splash of grenadine for a layered sunrise-inspired drink.",
+            "ar": "مياه غازية مع عصير البرتقال وقليل من شراب الرمان لمشروب طبقات مستوحى من شروق الشمس."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-55.jpeg",
+          "popular": false
+        },
+        {
+          "id": "soda-15",
+          "name": {
+            "en": "Scotch",
+            "ar": "سكوتش"
+          },
+          "description": {
+            "en": "Sparkling water blended with a smooth butterscotch syrup for a rich and sweet carbonated drink.",
+            "ar": "مياه غازية ممزوجة بشراب البترسكوتش الناعم لمشروب غازي غني وحلو."
+          },
+          "price": 55,
+          "imageUrl": "/images/item-56.jpeg",
+          "popular": false
         }
       ]
     },
@@ -601,6 +741,104 @@
           },
           "price": 75,
           "imageUrl": "/images/item-41.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-10",
+          "name": {
+            "en": "Passion Fruit Mango Smoothie",
+            "ar": "باشون فروت مانجو سموذي"
+          },
+          "description": {
+            "en": "Blended passion fruit and ripe mango pulp with ice for a sweet and tangy tropical fusion.",
+            "ar": "باشون فروت ولب مانجو ناضج ممزوجان بالثلج لمزيج استوائي حلو ولاذع."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-57.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-11",
+          "name": {
+            "en": "Raspberry Smoothie",
+            "ar": "راسبيري سموذي"
+          },
+          "description": {
+            "en": "Blended fresh raspberries with ice for a tart and refreshing antioxidant-rich fruit drink.",
+            "ar": "توت العليق الطازج ممزوج بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-58.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-12",
+          "name": {
+            "en": "Cherry Smoothie",
+            "ar": "كرز سموذي"
+          },
+          "description": {
+            "en": "Blended sweet cherries with ice for a rich and naturally sweet deep red fruit drink.",
+            "ar": "كرز حلو ممزوج بالثلج لمشروب فواكه أحمر غني وحلو بشكل طبيعي."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-59.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-13",
+          "name": {
+            "en": "Pineapple Smoothie",
+            "ar": "اناناس سموذي"
+          },
+          "description": {
+            "en": "Blended fresh pineapple with ice for a sweet and tangy tropical refreshment.",
+            "ar": "أناناس طازج ممزوج بالثلج لمشروب استوائي منعش حلو ولاذع."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-60.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-14",
+          "name": {
+            "en": "Strawberry Mango Smoothie",
+            "ar": "فراولة مانجو سموذي"
+          },
+          "description": {
+            "en": "Blended fresh strawberries and ripe mango with ice for a sweet and creamy tropical fusion.",
+            "ar": "فراولة طازجة ومانجو ناضجة ممزوجة بالثلج لمزيج استوائي حلو وكريمي."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-61.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-15",
+          "name": {
+            "en": "Coconut Smoothie",
+            "ar": "جوز هند سموذي"
+          },
+          "description": {
+            "en": "Blended creamy coconut with ice for a smooth and tropical dairy-free fruit drink.",
+            "ar": "جوز الهند الكريمي ممزوج بالثلج لمشروب استوائي ناعم وخالي من الحليب."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-62.jpeg",
+          "popular": false
+        },
+        {
+          "id": "smoothie-16",
+          "name": {
+            "en": "Passion Fruit Smoothie",
+            "ar": "باشون فروت سموذي"
+          },
+          "description": {
+            "en": "Blended exotic passion fruit with ice for a vibrant and tangy tropical drink.",
+            "ar": "باشون فروت استوائي ممزوج بالثلج لمشروب استوائي حيوي ولاذع."
+          },
+          "price": 50,
+          "imageUrl": "/images/item-63.jpeg",
           "popular": false
         }
       ]

@@ -17,7 +17,7 @@
             "en": "Traditional finely ground Turkish coffee, brewed slowly for a rich and authentic flavor.",
             "ar": "قهوة تركية تقليدية مطحونة ناعماً، تُحضر ببطء لنكهة غنية وأصيلة."
           },
-          "price": 25,
+          "price": 20,
           "imageUrl": "/images/turkish-coffee.png",
           "popular": false
         },
@@ -31,7 +31,7 @@
             "en": "A double shot of traditional Turkish coffee, offering a deeper and more intense aromatic blend.",
             "ar": "جرعة مضاعفة من القهوة التركية التقليدية، لخلطة عطرية أعمق وأكثر تركيزاً."
           },
-          "price": 40,
+          "price": 25,
           "imageUrl": "/images/double-turkish-coffee.png",
           "popular": false
         },
@@ -67,7 +67,7 @@
           "id": "hot-coffee-1",
           "name": {
             "en": "French Coffee",
-            "ar": "قهوة فرنسية"
+            "ar": "قهوة فرنساوي"
           },
           "description": {
             "en": "Rich roasted coffee beans blended with steamed milk for a smooth and creamy texture.",
@@ -95,7 +95,7 @@
           "id": "hot-coffee-3",
           "name": {
             "en": "Nutella Hazelnut Coffee",
-            "ar": "قهوة نوتيلا بالبندق"
+            "ar": "قهوة نوتيلا"
           },
           "description": {
             "en": "Roasted coffee beans combined with creamy hazelnut cocoa spread for a sweet indulgent drink.",
@@ -115,7 +115,7 @@
             "en": "Espresso shot topped with equal parts steamed milk and thick airy milk foam layer.",
             "ar": "شوت إسبريسو مع كميات متساوية من الحليب المبخر ورغوة الحليب السميكة."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-10.jpeg",
           "popular": false
         },
@@ -129,7 +129,7 @@
             "en": "Espresso shot mixed with a generous amount of steamed milk and light milk foam.",
             "ar": "شوت إسبريسو مع كمية وفيرة من الحليب المبخر ورغوة حليب خفيفة."
           },
-          "price": 45,
+          "price": 50,
           "imageUrl": "/images/item-11.jpeg",
           "popular": false
         },
@@ -143,7 +143,7 @@
             "en": "Espresso shot combined with silky steamed milk for a smooth and balanced coffee taste.",
             "ar": "شوت إسبريسو مع حليب مبخر ناعم لمذاق قهوة متوازن وسلس."
           },
-          "price": 45,
+          "price": 60,
           "imageUrl": "/images/item-12.jpeg",
           "popular": false
         },
@@ -171,7 +171,7 @@
             "en": "Espresso mixed with steamed milk and sweetened condensed milk for a rich creamy finish.",
             "ar": "إسبريسو مع حليب مبخر وحليب مكثف محلى لنهاية كريمية غنية."
           },
-          "price": 55,
+          "price": 65,
           "imageUrl": "/images/item-14.jpeg",
           "popular": false
         },
@@ -179,13 +179,13 @@
           "id": "hot-coffee-9",
           "name": {
             "en": "White Mocha",
-            "ar": "موكا أبيض"
+            "ar": "موكا وايت"
           },
           "description": {
             "en": "Espresso combined with white chocolate sauce and steamed milk for a sweet creamy treat.",
             "ar": "إسبريسو مع صوص الشوكولاتة البيضاء والحليب المبخر لمذاق حلو وكريمي."
           },
-          "price": 55,
+          "price": 65,
           "imageUrl": "/images/item-15.jpeg",
           "popular": false
         },
@@ -193,13 +193,13 @@
           "id": "hot-coffee-10",
           "name": {
             "en": "Dark Mocha",
-            "ar": "موكا داكن"
+            "ar": "موكا دارك"
           },
           "description": {
             "en": "Espresso blended with dark chocolate sauce and steamed milk for a deep cocoa flavor.",
             "ar": "إسبريسو ممزوج بصوص الشوكولاتة الداكنة والحليب المبخر لنكهة كاكاو عميقة."
           },
-          "price": 55,
+          "price": 60,
           "imageUrl": "/images/item-16.jpeg",
           "popular": false
         }
@@ -216,7 +216,7 @@
           "id": "ice-coffee-1",
           "name": {
             "en": "Iced Latte",
-            "ar": "لاتيه مثلج"
+            "ar": "ايس لاتيه"
           },
           "description": {
             "en": "Chilled espresso served over ice with cold milk for a refreshing and smooth drink.",
@@ -244,7 +244,7 @@
           "id": "ice-coffee-3",
           "name": {
             "en": "Iced Caramel Macchiato",
-            "ar": "ماكياتو كراميل مثلج"
+            "ar": "ايس مكياتو كراميل"
           },
           "description": {
             "en": "Chilled milk and espresso layered with sweet caramel syrup served over ice for refreshment.",
@@ -258,13 +258,13 @@
           "id": "ice-coffee-4",
           "name": {
             "en": "Iced White Mocha",
-            "ar": "موكا أبيض مثلج"
+            "ar": "ايس موكا وايت"
           },
           "description": {
             "en": "Chilled espresso with white chocolate sauce and cold milk served over ice for indulgence.",
             "ar": "إسبريسو بارد مع صوص الشوكولاتة البيضاء وحليب بارد على ثلج."
           },
-          "price": 65,
+          "price": 70,
           "imageUrl": "/images/item-20.jpeg",
           "popular": false
         },
@@ -272,13 +272,13 @@
           "id": "ice-coffee-5",
           "name": {
             "en": "Iced Dark Mocha",
-            "ar": "موكا داكن مثلج"
+            "ar": "ايس موكا دارك"
           },
           "description": {
             "en": "Chilled espresso with dark chocolate sauce and cold milk served over ice for richness.",
             "ar": "إسبريسو بارد مع صوص الشوكولاتة الداكنة وحليب بارد على ثلج."
           },
-          "price": 65,
+          "price": 70,
           "imageUrl": "/images/item-21.jpeg",
           "popular": false
         },
@@ -286,7 +286,7 @@
           "id": "ice-coffee-6",
           "name": {
             "en": "Iced Americano",
-            "ar": "أميريكانو مثلج"
+            "ar": "ايس اميريكانو"
           },
           "description": {
             "en": "Espresso diluted with cold water and served over ice for a crisp coffee experience.",
@@ -329,7 +329,7 @@
             "en": "Creamy milk blended with crushed chocolate sandwich cookies for a sweet and crunchy texture.",
             "ar": "حليب كريمي ممزوج ببسكويت الشوكولاتة المطحون لقوام حلو ومقرمش."
           },
-          "price": 80,
+          "price": 75,
           "imageUrl": "/images/item-01.jpeg",
           "popular": false
         },
@@ -337,7 +337,7 @@
           "id": "milkshake-2",
           "name": {
             "en": "Nutella Milkshake",
-            "ar": "ميلك شيك نوتيلا"
+            "ar": "نوتيلا ميلك شيك"
           },
           "description": {
             "en": "Creamy milk blended with hazelnut cocoa spread for a rich and decadent chocolate drink.",
@@ -351,7 +351,7 @@
           "id": "milkshake-3",
           "name": {
             "en": "Lotus Milkshake",
-            "ar": "ميلك شيك لوتس"
+            "ar": "لوتس ميلك شيك"
           },
           "description": {
             "en": "Creamy milk blended with spiced caramel biscuit spread for a unique and sweet flavor.",
@@ -365,7 +365,7 @@
           "id": "milkshake-4",
           "name": {
             "en": "Pistachio Milkshake",
-            "ar": "ميلك شيك فستق"
+            "ar": "فستق ميلك شيك"
           },
           "description": {
             "en": "Creamy milk blended with roasted pistachio paste for a nutty and refreshing sweet drink.",
@@ -379,13 +379,13 @@
           "id": "milkshake-5",
           "name": {
             "en": "Vanilla Milkshake",
-            "ar": "ميلك شيك فانيليا"
+            "ar": "فانيليا ميلك شيك"
           },
           "description": {
             "en": "Creamy milk blended with natural vanilla extract for a smooth and simple sweet beverage.",
             "ar": "حليب كريمي ممزوج بخلاصة الفانيليا الطبيعية لمشروب حلو ناعم وبسيط."
           },
-          "price": 65,
+          "price": 75,
           "imageUrl": "/images/item-27.jpeg",
           "popular": false
         }
@@ -622,7 +622,7 @@
             "en": "Blended coffee with milk and ice for a smooth and refreshing chilled coffee drink.",
             "ar": "قهوة ممزوجة بالحليب والثلج لمشروب قهوة بارد ناعم ومنعش."
           },
-          "price": 65,
+          "price": 70,
           "imageUrl": "/images/item-42.jpeg",
           "popular": false
         },
@@ -630,13 +630,13 @@
           "id": "frappuccino-2",
           "name": {
             "en": "Caramel Frappuccino",
-            "ar": "فرابتشينو كراميل"
+            "ar": "كراميل فرابتشينو"
           },
           "description": {
             "en": "Blended coffee, milk, and ice with sweet caramel syrup for a rich chilled treat.",
             "ar": "قهوة وحليب وثلج مع شراب الكراميل الحلو لمشروب بارد غني."
           },
-          "price": 70,
+          "price": 75,
           "imageUrl": "/images/item-43.jpeg",
           "popular": false
         },
@@ -644,13 +644,13 @@
           "id": "frappuccino-3",
           "name": {
             "en": "Hazelnut Frappuccino",
-            "ar": "فرابتشينو بندق"
+            "ar": "بندق فرابتشينو"
           },
           "description": {
             "en": "Blended coffee, milk, and ice with nutty hazelnut syrup for a flavorful chilled drink.",
             "ar": "قهوة وحليب وثلج مع شراب البندق لمشروب بارد بنكهة مميزة."
           },
-          "price": 70,
+          "price": 75,
           "imageUrl": "/images/item-44.jpeg",
           "popular": false
         },
@@ -658,13 +658,13 @@
           "id": "frappuccino-4",
           "name": {
             "en": "Vanilla Frappuccino",
-            "ar": "فرابتشينو فانيليا"
+            "ar": "فانيليا فرابتشينو"
           },
           "description": {
             "en": "Blended coffee, milk, and ice with sweet vanilla syrup for a smooth chilled beverage.",
             "ar": "قهوة وحليب وثلج مع شراب الفانيليا الحلو لمشروب بارد ناعم."
           },
-          "price": 70,
+          "price": 75,
           "imageUrl": "/images/item-45.jpeg",
           "popular": false
         },
@@ -672,13 +672,13 @@
           "id": "frappuccino-5",
           "name": {
             "en": "Chocolate Frappuccino",
-            "ar": "فرابتشينو شوكولاتة"
+            "ar": "شوكليت فرابتشينو"
           },
           "description": {
             "en": "Blended coffee, milk, and ice with chocolate syrup for a decadent chilled cocoa drink.",
             "ar": "قهوة وحليب وثلج مع شراب الشوكولاتة لمشروب كاكاو بارد فاخر."
           },
-          "price": 70,
+          "price": 75,
           "imageUrl": "/images/item-46.jpeg",
           "popular": false
         }

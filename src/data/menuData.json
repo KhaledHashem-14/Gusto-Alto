@@ -45,7 +45,7 @@
             "en": "A concentrated single shot of rich espresso, extracted perfectly with a premium golden crema.",
             "ar": "جرعة مركزة واحدة من الاسبريسو الغني، مستخلصة بدقة مع كريمة ذهبية فاخرة."
           },
-          "price": 50,
+          "price": 25,
           "imageUrl": "/images/single-espresso.png",
           "popular": false
         },
@@ -59,7 +59,7 @@
             "en": "A bold, intense double shot of espresso crafted from premium roasted coffee beans.",
             "ar": "جرعة مضاعفة قوية ومكثفة من الاسبريسو، محضرة من حبوب البن المحمصة الفاخرة."
           },
-          "price": 70,
+          "price": 35,
           "imageUrl": "/images/espresso.png",
           "popular": false
         },
@@ -151,7 +151,7 @@
           "id": "hot-coffee-7",
           "name": {
             "en": "American Coffee / Americano",
-            "ar": "قهوة أمريكية / أميريكانو"
+            "ar": "اميريكانو"
           },
           "description": {
             "en": "Espresso shot diluted with hot water to create a mild and smooth coffee beverage.",
@@ -199,7 +199,7 @@
             "en": "Espresso blended with dark chocolate sauce and steamed milk for a deep cocoa flavor.",
             "ar": "إسبريسو ممزوج بصوص الشوكولاتة الداكنة والحليب المبخر لنكهة كاكاو عميقة."
           },
-          "price": 60,
+          "price": 65,
           "imageUrl": "/images/item-16.jpeg",
           "popular": false
         }
@@ -300,7 +300,7 @@
           "id": "ice-coffee-7",
           "name": {
             "en": "Iced Pistachio Latte",
-            "ar": "لاتيه فستق مثلج"
+            "ar": "فستق ايس لاتيه"
           },
           "description": {
             "en": "Chilled espresso with cold milk and pistachio syrup served over ice for nutty flavor.",
@@ -627,7 +627,7 @@
             "en": "Blended blueberries with ice and a touch of sweetener for a thick fruity drink.",
             "ar": "توت أزرق ممزوج بالثلج ولمسة من المحلى لمشروب فواكه كثيف."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-33.jpeg",
           "popular": false
         },
@@ -641,7 +641,7 @@
             "en": "Blended assortment of berries with ice for a refreshing and antioxidant rich fruit drink.",
             "ar": "مزيج من التوت ممزوجاً بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-34.jpeg",
           "popular": false
         },
@@ -655,7 +655,7 @@
             "en": "Blended pineapple and coconut cream with ice for a creamy tropical fruit refreshment.",
             "ar": "أناناس وكريمة جوز الهند ممزوجة بالثلج لمشروب استوائي كريمي منعش."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-35.jpeg",
           "popular": false
         },
@@ -663,13 +663,13 @@
           "id": "smoothie-4",
           "name": {
             "en": "Blue Passion Smoothie",
-            "ar": "سموذي بلو باشن"
+            "ar": "سموذي بلو باشون"
           },
           "description": {
             "en": "Blended blue fruit and passion fruit with ice for a vibrant and exotic drink.",
             "ar": "فاكهة زرقاء وباشن فروت ممزوجة بالثلج لمشروب حيوي وغريب."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-36.jpeg",
           "popular": false
         },
@@ -683,7 +683,7 @@
             "en": "Blended blueberries, strawberries, and fresh mint with ice for a cooling fruity experience.",
             "ar": "توت أزرق وفراولة ونعناع طازج ممزوجة بالثلج لتجربة فواكه باردة ومنعشة."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-37.jpeg",
           "popular": false
         },
@@ -697,7 +697,7 @@
             "en": "Blended ripe mango pulp with ice for a thick and naturally sweet tropical drink.",
             "ar": "لب المانجو الناضجة ممزوجاً بالثلج لمشروب استوائي كثيف وحلو بشكل طبيعي."
           },
-          "price": 75,
+          "price": 60,
           "imageUrl": "/images/item-38.jpeg",
           "popular": false
         },
@@ -711,7 +711,7 @@
             "en": "Blended fresh strawberries with ice for a classic and refreshing sweet fruit beverage.",
             "ar": "فراولة طازجة ممزوجة بالثلج لمشروب فواكه حلو كلاسيكي ومنعش."
           },
-          "price": 70,
+          "price": 60,
           "imageUrl": "/images/item-39.jpeg",
           "popular": false
         },
@@ -725,7 +725,7 @@
             "en": "Blended fresh kiwi fruit with ice for a tart and refreshing green fruit drink.",
             "ar": "كيوي طازج ممزوج بالثلج لمشروب فاكهة خضراء منعش وحامض قليلاً."
           },
-          "price": 80,
+          "price": 70,
           "imageUrl": "/images/item-40.jpeg",
           "popular": false
         },
@@ -739,7 +739,7 @@
             "en": "Blended kiwi and mango pulp with ice for a sweet and tangy tropical fusion.",
             "ar": "كيوي ولب مانجو ممزوجان بالثلج لمزيج استوائي حلو ومنعش."
           },
-          "price": 75,
+          "price": 85,
           "imageUrl": "/images/item-41.jpeg",
           "popular": false
         },
@@ -753,7 +753,7 @@
             "en": "Blended passion fruit and ripe mango pulp with ice for a sweet and tangy tropical fusion.",
             "ar": "باشون فروت ولب مانجو ناضج ممزوجان بالثلج لمزيج استوائي حلو ولاذع."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-57.jpeg",
           "popular": false
         },
@@ -767,7 +767,7 @@
             "en": "Blended fresh raspberries with ice for a tart and refreshing antioxidant-rich fruit drink.",
             "ar": "توت العليق الطازج ممزوج بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-58.jpeg",
           "popular": false
         },
@@ -781,7 +781,7 @@
             "en": "Blended sweet cherries with ice for a rich and naturally sweet deep red fruit drink.",
             "ar": "كرز حلو ممزوج بالثلج لمشروب فواكه أحمر غني وحلو بشكل طبيعي."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-59.jpeg",
           "popular": false
         },
@@ -795,7 +795,7 @@
             "en": "Blended fresh pineapple with ice for a sweet and tangy tropical refreshment.",
             "ar": "أناناس طازج ممزوج بالثلج لمشروب استوائي منعش حلو ولاذع."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-60.jpeg",
           "popular": false
         },
@@ -809,7 +809,7 @@
             "en": "Blended fresh strawberries and ripe mango with ice for a sweet and creamy tropical fusion.",
             "ar": "فراولة طازجة ومانجو ناضجة ممزوجة بالثلج لمزيج استوائي حلو وكريمي."
           },
-          "price": 50,
+          "price": 70,
           "imageUrl": "/images/item-61.jpeg",
           "popular": false
         },
@@ -823,7 +823,7 @@
             "en": "Blended creamy coconut with ice for a smooth and tropical dairy-free fruit drink.",
             "ar": "جوز الهند الكريمي ممزوج بالثلج لمشروب استوائي ناعم وخالي من الحليب."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-62.jpeg",
           "popular": false
         },
@@ -837,7 +837,7 @@
             "en": "Blended exotic passion fruit with ice for a vibrant and tangy tropical drink.",
             "ar": "باشون فروت استوائي ممزوج بالثلج لمشروب استوائي حيوي ولاذع."
           },
-          "price": 50,
+          "price": 60,
           "imageUrl": "/images/item-63.jpeg",
           "popular": false
         }

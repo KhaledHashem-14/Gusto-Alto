@@ -441,34 +441,6 @@
           "popular": false
         },
         {
-          "id": "soda-4",
-          "name": {
-            "en": "Pina Colada",
-            "ar": "بينا كولادا"
-          },
-          "description": {
-            "en": "Refreshing blend of pineapple juice and coconut cream served as a chilled carbonated drink.",
-            "ar": "مزيج منعش من عصير الأناناس وكريمة جوز الهند مقدم كمشروب غازي بارد."
-          },
-          "price": 50,
-          "imageUrl": "/images/item-31.jpeg",
-          "popular": false
-        },
-        {
-          "id": "soda-5",
-          "name": {
-            "en": "Blueberry Strawberry Mint",
-            "ar": "توت أزرق وفراولة ونعناع"
-          },
-          "description": {
-            "en": "Sparkling water with blueberry, strawberry, and fresh mint leaves for a cooling fruity drink.",
-            "ar": "مياه غازية بالتوت الأزرق والفراولة وأوراق النعناع الطازجة لمشروب فواكه بارد."
-          },
-          "price": 50,
-          "imageUrl": "/images/item-32.jpeg",
-          "popular": false
-        },
-        {
           "id": "soda-6",
           "name": {
             "en": "Classic Mojito",
@@ -840,6 +812,20 @@
           "price": 60,
           "imageUrl": "/images/item-63.jpeg",
           "popular": false
+        },
+        {
+          "id": "smoothie-17",
+          "name": {
+            "en": "Passion Fruit Kiwi Smoothie",
+            "ar": "باشون فروت كيوي سموذي"
+          },
+          "description": {
+            "en": "Blended passion fruit and fresh kiwi with ice for a tangy and vibrant tropical fusion.",
+            "ar": "باشون فروت وكيوي طازج ممزوجان بالثلج لمزيج استوائي لاذع وحيوي."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-80.jpeg",
+          "popular": false
         }
       ]
     },
@@ -918,6 +904,267 @@
           },
           "price": 75,
           "imageUrl": "/images/item-46.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-6",
+          "name": {
+            "en": "Pistachio Frappuccino",
+            "ar": "فستق فرابتشينو"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with rich pistachio syrup for a nutty and creamy chilled treat.",
+            "ar": "قهوة وحليب وثلج مع شراب الفستق الغني لمشروب بارد كريمي بنكهة المكسرات."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-81.jpeg",
+          "popular": false
+        },
+        {
+          "id": "frappuccino-7",
+          "name": {
+            "en": "Lotus Frappuccino",
+            "ar": "لوتس فرابتشينو"
+          },
+          "description": {
+            "en": "Blended coffee, milk, and ice with spiced caramel Lotus biscuit spread for a unique and indulgent chilled drink.",
+            "ar": "قهوة وحليب وثلج مع كريمة بسكويت اللوتس بالكراميل المتبل لمشروب بارد فريد ومدلل."
+          },
+          "price": 80,
+          "imageUrl": "/images/item-82.jpeg",
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "hot-drinks",
+      "name": {
+        "en": "Hot Drinks",
+        "ar": "مشروبات ساخنة"
+      },
+      "items": [
+        {
+          "id": "hot-drinks-1",
+          "name": {
+            "en": "Tea",
+            "ar": "شاي"
+          },
+          "description": {
+            "en": "Classic black tea brewed to perfection, served hot for a comforting and soothing experience.",
+            "ar": "شاي أسود كلاسيكي مخمر بإتقان، يقدم ساخناً لتجربة مريحة ومهدئة."
+          },
+          "price": 10,
+          "imageUrl": "/images/item-64.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-2",
+          "name": {
+            "en": "Milk Tea",
+            "ar": "شاي حليب"
+          },
+          "description": {
+            "en": "Rich black tea blended with steamed milk for a smooth and creamy warm beverage.",
+            "ar": "شاي أسود غني ممزوج بالحليب المبخر لمشروب دافئ ناعم وكريمي."
+          },
+          "price": 20,
+          "imageUrl": "/images/item-65.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-3",
+          "name": {
+            "en": "Karak Tea",
+            "ar": "شاي كرك"
+          },
+          "description": {
+            "en": "Strong brewed tea with aromatic spices and evaporated milk for a rich and flavorful karak experience.",
+            "ar": "شاي قوي مخمر مع بهارات عطرية وحليب مبخر لتجربة كرك غنية بالنكهة."
+          },
+          "price": 25,
+          "imageUrl": "/images/item-66.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-4",
+          "name": {
+            "en": "Anise",
+            "ar": "ينسون"
+          },
+          "description": {
+            "en": "Soothing anise seeds brewed into a warm aromatic drink with a naturally sweet and licorice-like flavor.",
+            "ar": "بذور يانسون مهدئة مخمرة في شاي دافئ عطري بنكهة حلوة طبيعية تشبه عرق السوس."
+          },
+          "price": 15,
+          "imageUrl": "/images/item-67.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-5",
+          "name": {
+            "en": "Mint",
+            "ar": "نعناع"
+          },
+          "description": {
+            "en": "Fresh mint leaves steeped in hot water for a refreshing and soothing herbal infusion.",
+            "ar": "أوراق نعناع طازجة منقوعة في ماء ساخن لمنقوع عشبي منعش ومهدئ."
+          },
+          "price": 15,
+          "imageUrl": "/images/item-68.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-6",
+          "name": {
+            "en": "Hibiscus",
+            "ar": "كركديه"
+          },
+          "description": {
+            "en": "Vibrant dried hibiscus flowers brewed into a tart and refreshing ruby-red hot drink.",
+            "ar": "أزهار كركديه مجففة نابضة بالحياة مخمرة في شاي أحمر ياقوتي لاذع ومنعش."
+          },
+          "price": 15,
+          "imageUrl": "/images/item-69.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-7",
+          "name": {
+            "en": "Ginger",
+            "ar": "زنجبيل"
+          },
+          "description": {
+            "en": "Fresh ginger root steeped in hot water for a warming and spicy herbal drink with natural heat.",
+            "ar": "جذر زنجبيل طازج منقوع في ماء ساخن لمشروب عشبي دافئ وحار بحرارة طبيعية."
+          },
+          "price": 15,
+          "imageUrl": "/images/item-70.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-8",
+          "name": {
+            "en": "Cinnamon",
+            "ar": "قرفة"
+          },
+          "description": {
+            "en": "Warm cinnamon sticks brewed into a sweet and aromatic hot drink with a comforting spicy aroma.",
+            "ar": "أعواد قرفة دافئة مخمرة في شاي ساخن حلو وعطري برائحة مريحة."
+          },
+          "price": 20,
+          "imageUrl": "/images/item-71.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-9",
+          "name": {
+            "en": "Cinnamon Milk",
+            "ar": "قرفة حليب"
+          },
+          "description": {
+            "en": "Brewed cinnamon blended with steamed milk for a creamy and aromatic spiced warm drink.",
+            "ar": "شاي قرفة مخمر ممزوج بالحليب المبخر لمشروب دافئ كريمي وعطري بالبهارات."
+          },
+          "price": 35,
+          "imageUrl": "/images/item-72.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-10",
+          "name": {
+            "en": "Hot Cider",
+            "ar": "هوت سيدر"
+          },
+          "description": {
+            "en": "Warm spiced apple cider with cinnamon and cloves for a cozy and sweet hot beverage.",
+            "ar": "عصير تفاح دافئ متبل بالقرفة والقرنفل لمشروب ساخن حلو ومريح."
+          },
+          "price": 35,
+          "imageUrl": "/images/item-73.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-11",
+          "name": {
+            "en": "Hot Lemon",
+            "ar": "ليمون ساخن"
+          },
+          "description": {
+            "en": "Fresh lemon juice mixed with hot water and a touch of honey for a soothing citrus drink.",
+            "ar": "عصير ليمون طازج ممزوج بماء ساخن ولمسة من العسل لمشروب حمضيات مهدئ."
+          },
+          "price": 30,
+          "imageUrl": "/images/item-74.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-12",
+          "name": {
+            "en": "Herbal Mix",
+            "ar": "ميكس أعشاب"
+          },
+          "description": {
+            "en": "A soothing blend of mixed herbs steeped in hot water for a calming and aromatic infusion.",
+            "ar": "مزيج مهدئ من الأعشاب المختلطة منقوعة في ماء ساخن لمنقوع عشبي مهدئ وعطري."
+          },
+          "price": 40,
+          "imageUrl": "/images/item-75.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-13",
+          "name": {
+            "en": "Nescafe Black",
+            "ar": "نسكافيه بلاك"
+          },
+          "description": {
+            "en": "Instant Nescafe coffee prepared black for a quick and bold hot coffee fix.",
+            "ar": "قهوة نسكافيه سريعة التحضير تقدم سوداء لمشروب قهوة ساخن سريع وقوي."
+          },
+          "price": 20,
+          "imageUrl": "/images/item-76.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-14",
+          "name": {
+            "en": "Nescafe with Milk",
+            "ar": "نسكافيه حليب"
+          },
+          "description": {
+            "en": "Instant Nescafe coffee mixed with steamed milk for a smooth and creamy hot beverage.",
+            "ar": "قهوة نسكافيه سريعة التحضير ممزوجة بالحليب المبخر لمشروب ساخن ناعم وكريمي."
+          },
+          "price": 35,
+          "imageUrl": "/images/item-77.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-15",
+          "name": {
+            "en": "Coffee Mix Classic",
+            "ar": "كوفي ميكس كلاسيك"
+          },
+          "description": {
+            "en": "Classic instant coffee mix with creamer and sugar prepared hot for a quick and satisfying drink.",
+            "ar": "مزيج قهوة سريعة التحضير كلاسيكي مع مبيض وسكر محضر ساخناً لمشروب سريع ومُرضٍ."
+          },
+          "price": 20,
+          "imageUrl": "/images/item-78.jpeg",
+          "popular": false
+        },
+        {
+          "id": "hot-drinks-16",
+          "name": {
+            "en": "Coffee Mix with Milk",
+            "ar": "كوفي ميكس حليب"
+          },
+          "description": {
+            "en": "Instant coffee mix combined with steamed milk for a richer and creamier hot coffee experience.",
+            "ar": "مزيج قهوة سريعة التحضير مع حليب مبخر لتجربة قهوة ساخنة أغنى وأكثر كريمية."
+          },
+          "price": 30,
+          "imageUrl": "/images/item-79.jpeg",
           "popular": false
         }
       ]

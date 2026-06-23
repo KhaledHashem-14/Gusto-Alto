@@ -18,7 +18,7 @@
             "ar": "قهوة تركية تقليدية مطحونة ناعماً، تُحضر ببطء لنكهة غنية وأصيلة."
           },
           "price": 20,
-          "imageUrl": "/images/turkish-coffee.png",
+          "imageUrl": "/images-optimized/turkish-coffee.webp",
           "popular": false
         },
         {
@@ -32,7 +32,7 @@
             "ar": "جرعة مضاعفة من القهوة التركية التقليدية، لخلطة عطرية أعمق وأكثر تركيزاً."
           },
           "price": 25,
-          "imageUrl": "/images/double-turkish-coffee.png",
+          "imageUrl": "/images-optimized/double-turkish-coffee.webp",
           "popular": false
         },
         {
@@ -46,7 +46,7 @@
             "ar": "جرعة مركزة واحدة من الاسبريسو الغني، مستخلصة بدقة مع كريمة ذهبية فاخرة."
           },
           "price": 25,
-          "imageUrl": "/images/single-espresso.png",
+          "imageUrl": "/images-optimized/single-espresso.webp",
           "popular": false
         },
         {
@@ -60,7 +60,7 @@
             "ar": "جرعة مضاعفة قوية ومكثفة من الاسبريسو، محضرة من حبوب البن المحمصة الفاخرة."
           },
           "price": 35,
-          "imageUrl": "/images/espresso.png",
+          "imageUrl": "/images-optimized/espresso.webp",
           "popular": false
         },
         {
@@ -74,7 +74,7 @@
             "ar": "حبوب قهوة محمصة غنية ممزوجة بالحليب المبخر لقوام ناعم وكريمي."
           },
           "price": 35,
-          "imageUrl": "/images/item-07.jpeg",
+          "imageUrl": "/images-optimized/item-07.webp",
           "popular": false
         },
         {
@@ -88,7 +88,7 @@
             "ar": "حبوب قهوة محمصة بنكهة البندق الطبيعية لمذاق عطري بنكهة المكسرات."
           },
           "price": 45,
-          "imageUrl": "/images/item-08.jpeg",
+          "imageUrl": "/images-optimized/item-08.webp",
           "popular": false
         },
         {
@@ -102,7 +102,7 @@
             "ar": "حبوب قهوة محمصة مع كريمة النوتيلا بالبندق والكاكاو لمشروب حلو ومدلل."
           },
           "price": 50,
-          "imageUrl": "/images/item-09.jpeg",
+          "imageUrl": "/images-optimized/item-09.webp",
           "popular": false
         },
         {
@@ -116,7 +116,7 @@
             "ar": "شوت إسبريسو مع كميات متساوية من الحليب المبخر ورغوة الحليب السميكة."
           },
           "price": 60,
-          "imageUrl": "/images/item-10.jpeg",
+          "imageUrl": "/images-optimized/item-10.webp",
           "popular": false
         },
         {
@@ -130,7 +130,7 @@
             "ar": "شوت إسبريسو مع كمية وفيرة من الحليب المبخر ورغوة حليب خفيفة."
           },
           "price": 50,
-          "imageUrl": "/images/item-11.jpeg",
+          "imageUrl": "/images-optimized/item-11.webp",
           "popular": false
         },
         {
@@ -144,7 +144,7 @@
             "ar": "شوت إسبريسو مع حليب مبخر ناعم لمذاق قهوة متوازن وسلس."
           },
           "price": 60,
-          "imageUrl": "/images/item-12.jpeg",
+          "imageUrl": "/images-optimized/item-12.webp",
           "popular": false
         },
         {
@@ -158,7 +158,7 @@
             "ar": "شوت إسبريسو ممزوج بالماء الساخن لمشروب قهوة خفيف وناعم."
           },
           "price": 40,
-          "imageUrl": "/images/item-13.jpeg",
+          "imageUrl": "/images-optimized/item-13.webp",
           "popular": false
         },
         {
@@ -172,7 +172,7 @@
             "ar": "إسبريسو مع حليب مبخر وحليب مكثف محلى لنهاية كريمية غنية."
           },
           "price": 65,
-          "imageUrl": "/images/item-14.jpeg",
+          "imageUrl": "/images-optimized/item-14.webp",
           "popular": false
         },
         {
@@ -186,7 +186,7 @@
             "ar": "إسبريسو مع صوص الشوكولاتة البيضاء والحليب المبخر لمذاق حلو وكريمي."
           },
           "price": 65,
-          "imageUrl": "/images/item-15.jpeg",
+          "imageUrl": "/images-optimized/item-15.webp",
           "popular": false
         },
         {
@@ -200,7 +200,7 @@
             "ar": "إسبريسو ممزوج بصوص الشوكولاتة الداكنة والحليب المبخر لنكهة كاكاو عميقة."
           },
           "price": 65,
-          "imageUrl": "/images/item-16.jpeg",
+          "imageUrl": "/images-optimized/item-16.webp",
           "popular": false
         }
       ]
@@ -223,7 +223,7 @@
             "ar": "إسبريسو بارد مع ثلج وحليب بارد لمشروب منعش وناعم."
           },
           "price": 65,
-          "imageUrl": "/images/item-17.jpeg",
+          "imageUrl": "/images-optimized/item-17.webp",
           "popular": false
         },
         {
@@ -237,7 +237,7 @@
             "ar": "إسبريسو بارد مع حليب بارد وحليب مكثف محلى على ثلج لمذاق حلو."
           },
           "price": 70,
-          "imageUrl": "/images/item-18.jpeg",
+          "imageUrl": "/images-optimized/item-18.webp",
           "popular": false
         },
         {
@@ -251,7 +251,7 @@
             "ar": "حليب بارد وإسبريسو بطبقات من شراب الكراميل الحلو على ثلج للانتعاش."
           },
           "price": 60,
-          "imageUrl": "/images/item-19.jpeg",
+          "imageUrl": "/images-optimized/item-19.webp",
           "popular": false
         },
         {
@@ -265,7 +265,7 @@
             "ar": "إسبريسو بارد مع صوص الشوكولاتة البيضاء وحليب بارد على ثلج."
           },
           "price": 70,
-          "imageUrl": "/images/item-20.jpeg",
+          "imageUrl": "/images-optimized/item-20.webp",
           "popular": false
         },
         {
@@ -279,7 +279,7 @@
             "ar": "إسبريسو بارد مع صوص الشوكولاتة الداكنة وحليب بارد على ثلج."
           },
           "price": 70,
-          "imageUrl": "/images/item-21.jpeg",
+          "imageUrl": "/images-optimized/item-21.webp",
           "popular": false
         },
         {
@@ -293,7 +293,7 @@
             "ar": "إسبريسو ممزوج بماء بارد ومقدم على ثلج لتجربة قهوة منعشة."
           },
           "price": 45,
-          "imageUrl": "/images/item-22.jpeg",
+          "imageUrl": "/images-optimized/item-22.webp",
           "popular": false
         },
         {
@@ -307,7 +307,7 @@
             "ar": "إسبريسو بارد مع حليب بارد وشراب الفستق على ثلج لنكهة مكسرات رائعة."
           },
           "price": 85,
-          "imageUrl": "/images/item-23.jpeg",
+          "imageUrl": "/images-optimized/item-23.webp",
           "popular": false
         }
       ]
@@ -330,7 +330,7 @@
             "ar": "حليب كريمي ممزوج ببسكويت الشوكولاتة المطحون لقوام حلو ومقرمش."
           },
           "price": 75,
-          "imageUrl": "/images/item-01.jpeg",
+          "imageUrl": "/images-optimized/item-01.webp",
           "popular": false
         },
         {
@@ -344,7 +344,7 @@
             "ar": "حليب كريمي ممزوج بكريمة النوتيلا بالبندق والكاكاو لمشروب شوكولاتة غني."
           },
           "price": 80,
-          "imageUrl": "/images/item-24.jpeg",
+          "imageUrl": "/images-optimized/item-24.webp",
           "popular": false
         },
         {
@@ -358,7 +358,7 @@
             "ar": "حليب كريمي ممزوج بكريمة بسكويت الكراميل المتبل لنكهة حلوة ومميزة."
           },
           "price": 80,
-          "imageUrl": "/images/item-25.jpeg",
+          "imageUrl": "/images-optimized/item-25.webp",
           "popular": false
         },
         {
@@ -372,7 +372,7 @@
             "ar": "حليب كريمي ممزوج بمعجون الفستق المحمص لمشروب حلو منعش بنكهة المكسرات."
           },
           "price": 90,
-          "imageUrl": "/images/item-26.jpeg",
+          "imageUrl": "/images-optimized/item-26.webp",
           "popular": false
         },
         {
@@ -386,7 +386,7 @@
             "ar": "حليب كريمي ممزوج بخلاصة الفانيليا الطبيعية لمشروب حلو ناعم وبسيط."
           },
           "price": 75,
-          "imageUrl": "/images/item-27.jpeg",
+          "imageUrl": "/images-optimized/item-27.webp",
           "popular": false
         }
       ]
@@ -409,7 +409,7 @@
             "ar": "مياه غازية فوارة بشراب التوت الأزرق الحلو لمشروب فواكه منعش."
           },
           "price": 50,
-          "imageUrl": "/images/item-28.jpeg",
+          "imageUrl": "/images-optimized/item-28.webp",
           "popular": false
         },
         {
@@ -423,7 +423,7 @@
             "ar": "مياه غازية فوارة بشراب الأناناس الاستوائي لمشروب حلو ومنعش."
           },
           "price": 50,
-          "imageUrl": "/images/item-29.jpeg",
+          "imageUrl": "/images-optimized/item-29.webp",
           "popular": false
         },
         {
@@ -437,7 +437,7 @@
             "ar": "مياه غازية فوارة بنكهة شراب الباشن فروت الاستوائية لمذاق حيوي."
           },
           "price": 50,
-          "imageUrl": "/images/item-30.jpeg",
+          "imageUrl": "/images-optimized/item-30.webp",
           "popular": false
         },
         {
@@ -451,7 +451,7 @@
             "ar": "مياه غازية فوارة ممزوجة بالنعناع الطازج والليمون ولمسة من الحلاوة لمشروب كلاسيكي منعش."
           },
           "price": 55,
-          "imageUrl": "/images/item-47.jpeg",
+          "imageUrl": "/images-optimized/item-47.webp",
           "popular": false
         },
         {
@@ -465,7 +465,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون وشراب التوت الأزرق الحلو لنسخة فواكه من الموهيتو الكلاسيكي."
           },
           "price": 55,
-          "imageUrl": "/images/item-48.jpeg",
+          "imageUrl": "/images-optimized/item-48.webp",
           "popular": false
         },
         {
@@ -479,7 +479,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون وشراب الأناناس الاستوائي لمشروب حلو ومنعش."
           },
           "price": 55,
-          "imageUrl": "/images/item-49.jpeg",
+          "imageUrl": "/images-optimized/item-49.webp",
           "popular": false
         },
         {
@@ -493,7 +493,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون والأناناس وكريمة جوز الهند لمزيج موهيتو استوائي."
           },
           "price": 55,
-          "imageUrl": "/images/item-50.jpeg",
+          "imageUrl": "/images-optimized/item-50.webp",
           "popular": false
         },
         {
@@ -507,7 +507,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون وشراب البلوكوراسو الأزرق الحيوي لمشروب حمضيات لافت."
           },
           "price": 55,
-          "imageUrl": "/images/item-51.jpeg",
+          "imageUrl": "/images-optimized/item-51.webp",
           "popular": false
         },
         {
@@ -521,7 +521,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون وشراب الباشن فروت الاستوائي لموهيتو استوائي حيوي."
           },
           "price": 55,
-          "imageUrl": "/images/item-52.jpeg",
+          "imageUrl": "/images-optimized/item-52.webp",
           "popular": false
         },
         {
@@ -535,7 +535,7 @@
             "ar": "مياه غازية مع النعناع الطازج والليمون وشراب التوت الأزرق والفراولة لموهيتو غني بالتوت."
           },
           "price": 55,
-          "imageUrl": "/images/item-53.jpeg",
+          "imageUrl": "/images-optimized/item-53.webp",
           "popular": false
         },
         {
@@ -549,7 +549,7 @@
             "ar": "مياه غازية ممزوجة بعصائر الحمضيات ولمسة من الحلاوة لمشروب مشرق ومبهج."
           },
           "price": 55,
-          "imageUrl": "/images/item-54.jpeg",
+          "imageUrl": "/images-optimized/item-54.webp",
           "popular": false
         },
         {
@@ -563,7 +563,7 @@
             "ar": "مياه غازية مع عصير البرتقال وقليل من شراب الرمان لمشروب طبقات مستوحى من شروق الشمس."
           },
           "price": 55,
-          "imageUrl": "/images/item-55.jpeg",
+          "imageUrl": "/images-optimized/item-55.webp",
           "popular": false
         },
         {
@@ -577,7 +577,7 @@
             "ar": "مياه غازية ممزوجة بشراب البترسكوتش الناعم لمشروب غازي غني وحلو."
           },
           "price": 55,
-          "imageUrl": "/images/item-56.jpeg",
+          "imageUrl": "/images-optimized/item-56.webp",
           "popular": false
         }
       ]
@@ -600,7 +600,7 @@
             "ar": "توت أزرق ممزوج بالثلج ولمسة من المحلى لمشروب فواكه كثيف."
           },
           "price": 60,
-          "imageUrl": "/images/item-33.jpeg",
+          "imageUrl": "/images-optimized/item-33.webp",
           "popular": false
         },
         {
@@ -614,7 +614,7 @@
             "ar": "مزيج من التوت ممزوجاً بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
           },
           "price": 70,
-          "imageUrl": "/images/item-34.jpeg",
+          "imageUrl": "/images-optimized/item-34.webp",
           "popular": false
         },
         {
@@ -628,7 +628,7 @@
             "ar": "أناناس وكريمة جوز الهند ممزوجة بالثلج لمشروب استوائي كريمي منعش."
           },
           "price": 70,
-          "imageUrl": "/images/item-35.jpeg",
+          "imageUrl": "/images-optimized/item-35.webp",
           "popular": false
         },
         {
@@ -642,7 +642,7 @@
             "ar": "فاكهة زرقاء وباشن فروت ممزوجة بالثلج لمشروب حيوي وغريب."
           },
           "price": 70,
-          "imageUrl": "/images/item-36.jpeg",
+          "imageUrl": "/images-optimized/item-36.webp",
           "popular": false
         },
         {
@@ -656,7 +656,7 @@
             "ar": "توت أزرق وفراولة ونعناع طازج ممزوجة بالثلج لتجربة فواكه باردة ومنعشة."
           },
           "price": 70,
-          "imageUrl": "/images/item-37.jpeg",
+          "imageUrl": "/images-optimized/item-37.webp",
           "popular": false
         },
         {
@@ -670,7 +670,7 @@
             "ar": "لب المانجو الناضجة ممزوجاً بالثلج لمشروب استوائي كثيف وحلو بشكل طبيعي."
           },
           "price": 60,
-          "imageUrl": "/images/item-38.jpeg",
+          "imageUrl": "/images-optimized/item-38.webp",
           "popular": false
         },
         {
@@ -684,7 +684,7 @@
             "ar": "فراولة طازجة ممزوجة بالثلج لمشروب فواكه حلو كلاسيكي ومنعش."
           },
           "price": 60,
-          "imageUrl": "/images/item-39.jpeg",
+          "imageUrl": "/images-optimized/item-39.webp",
           "popular": false
         },
         {
@@ -698,7 +698,7 @@
             "ar": "كيوي طازج ممزوج بالثلج لمشروب فاكهة خضراء منعش وحامض قليلاً."
           },
           "price": 70,
-          "imageUrl": "/images/item-40.jpeg",
+          "imageUrl": "/images-optimized/item-40.webp",
           "popular": false
         },
         {
@@ -712,7 +712,7 @@
             "ar": "كيوي ولب مانجو ممزوجان بالثلج لمزيج استوائي حلو ومنعش."
           },
           "price": 85,
-          "imageUrl": "/images/item-41.jpeg",
+          "imageUrl": "/images-optimized/item-41.webp",
           "popular": false
         },
         {
@@ -726,7 +726,7 @@
             "ar": "باشون فروت ولب مانجو ناضج ممزوجان بالثلج لمزيج استوائي حلو ولاذع."
           },
           "price": 70,
-          "imageUrl": "/images/item-57.jpeg",
+          "imageUrl": "/images-optimized/item-57.webp",
           "popular": false
         },
         {
@@ -740,7 +740,7 @@
             "ar": "توت العليق الطازج ممزوج بالثلج لمشروب فواكه منعش غني بمضادات الأكسدة."
           },
           "price": 60,
-          "imageUrl": "/images/item-58.jpeg",
+          "imageUrl": "/images-optimized/item-58.webp",
           "popular": false
         },
         {
@@ -754,7 +754,7 @@
             "ar": "كرز حلو ممزوج بالثلج لمشروب فواكه أحمر غني وحلو بشكل طبيعي."
           },
           "price": 60,
-          "imageUrl": "/images/item-59.jpeg",
+          "imageUrl": "/images-optimized/item-59.webp",
           "popular": false
         },
         {
@@ -768,7 +768,7 @@
             "ar": "أناناس طازج ممزوج بالثلج لمشروب استوائي منعش حلو ولاذع."
           },
           "price": 60,
-          "imageUrl": "/images/item-60.jpeg",
+          "imageUrl": "/images-optimized/item-60.webp",
           "popular": false
         },
         {
@@ -782,7 +782,7 @@
             "ar": "فراولة طازجة ومانجو ناضجة ممزوجة بالثلج لمزيج استوائي حلو وكريمي."
           },
           "price": 70,
-          "imageUrl": "/images/item-61.jpeg",
+          "imageUrl": "/images-optimized/item-61.webp",
           "popular": false
         },
         {
@@ -796,7 +796,7 @@
             "ar": "جوز الهند الكريمي ممزوج بالثلج لمشروب استوائي ناعم وخالي من الحليب."
           },
           "price": 60,
-          "imageUrl": "/images/item-62.jpeg",
+          "imageUrl": "/images-optimized/item-62.webp",
           "popular": false
         },
         {
@@ -810,7 +810,7 @@
             "ar": "باشون فروت استوائي ممزوج بالثلج لمشروب استوائي حيوي ولاذع."
           },
           "price": 60,
-          "imageUrl": "/images/item-63.jpeg",
+          "imageUrl": "/images-optimized/item-63.webp",
           "popular": false
         },
         {
@@ -824,7 +824,7 @@
             "ar": "باشون فروت وكيوي طازج ممزوجان بالثلج لمزيج استوائي لاذع وحيوي."
           },
           "price": 80,
-          "imageUrl": "/images/item-80.jpeg",
+          "imageUrl": "/images-optimized/item-80.webp",
           "popular": false
         }
       ]
@@ -847,7 +847,7 @@
             "ar": "قهوة ممزوجة بالحليب والثلج لمشروب قهوة بارد ناعم ومنعش."
           },
           "price": 70,
-          "imageUrl": "/images/item-42.jpeg",
+          "imageUrl": "/images-optimized/item-42.webp",
           "popular": false
         },
         {
@@ -861,7 +861,7 @@
             "ar": "قهوة وحليب وثلج مع شراب الكراميل الحلو لمشروب بارد غني."
           },
           "price": 75,
-          "imageUrl": "/images/item-43.jpeg",
+          "imageUrl": "/images-optimized/item-43.webp",
           "popular": false
         },
         {
@@ -875,7 +875,7 @@
             "ar": "قهوة وحليب وثلج مع شراب البندق لمشروب بارد بنكهة مميزة."
           },
           "price": 75,
-          "imageUrl": "/images/item-44.jpeg",
+          "imageUrl": "/images-optimized/item-44.webp",
           "popular": false
         },
         {
@@ -889,7 +889,7 @@
             "ar": "قهوة وحليب وثلج مع شراب الفانيليا الحلو لمشروب بارد ناعم."
           },
           "price": 75,
-          "imageUrl": "/images/item-45.jpeg",
+          "imageUrl": "/images-optimized/item-45.webp",
           "popular": false
         },
         {
@@ -903,7 +903,7 @@
             "ar": "قهوة وحليب وثلج مع شراب الشوكولاتة لمشروب كاكاو بارد فاخر."
           },
           "price": 75,
-          "imageUrl": "/images/item-46.jpeg",
+          "imageUrl": "/images-optimized/item-46.webp",
           "popular": false
         },
         {
@@ -917,7 +917,7 @@
             "ar": "قهوة وحليب وثلج مع شراب الفستق الغني لمشروب بارد كريمي بنكهة المكسرات."
           },
           "price": 80,
-          "imageUrl": "/images/item-81.jpeg",
+          "imageUrl": "/images-optimized/item-81.webp",
           "popular": false
         },
         {
@@ -931,7 +931,7 @@
             "ar": "قهوة وحليب وثلج مع كريمة بسكويت اللوتس بالكراميل المتبل لمشروب بارد فريد ومدلل."
           },
           "price": 80,
-          "imageUrl": "/images/item-82.jpeg",
+          "imageUrl": "/images-optimized/item-82.webp",
           "popular": false
         }
       ]
@@ -954,7 +954,7 @@
             "ar": "شاي أسود كلاسيكي مخمر بإتقان، يقدم ساخناً لتجربة مريحة ومهدئة."
           },
           "price": 10,
-          "imageUrl": "/images/item-64.jpeg",
+          "imageUrl": "/images-optimized/item-64.webp",
           "popular": false
         },
         {
@@ -968,7 +968,7 @@
             "ar": "شاي أسود غني ممزوج بالحليب المبخر لمشروب دافئ ناعم وكريمي."
           },
           "price": 20,
-          "imageUrl": "/images/item-65.jpeg",
+          "imageUrl": "/images-optimized/item-65.webp",
           "popular": false
         },
         {
@@ -982,7 +982,7 @@
             "ar": "شاي قوي مخمر مع بهارات عطرية وحليب مبخر لتجربة كرك غنية بالنكهة."
           },
           "price": 25,
-          "imageUrl": "/images/item-66.jpeg",
+          "imageUrl": "/images-optimized/item-66.webp",
           "popular": false
         },
         {
@@ -996,7 +996,7 @@
             "ar": "بذور يانسون مهدئة مخمرة في شاي دافئ عطري بنكهة حلوة طبيعية تشبه عرق السوس."
           },
           "price": 15,
-          "imageUrl": "/images/item-67.jpeg",
+          "imageUrl": "/images-optimized/item-67.webp",
           "popular": false
         },
         {
@@ -1010,7 +1010,7 @@
             "ar": "أوراق نعناع طازجة منقوعة في ماء ساخن لمنقوع عشبي منعش ومهدئ."
           },
           "price": 15,
-          "imageUrl": "/images/item-68.jpeg",
+          "imageUrl": "/images-optimized/item-68.webp",
           "popular": false
         },
         {
@@ -1024,7 +1024,7 @@
             "ar": "أزهار كركديه مجففة نابضة بالحياة مخمرة في شاي أحمر ياقوتي لاذع ومنعش."
           },
           "price": 15,
-          "imageUrl": "/images/item-69.jpeg",
+          "imageUrl": "/images-optimized/item-69.webp",
           "popular": false
         },
         {
@@ -1038,7 +1038,7 @@
             "ar": "جذر زنجبيل طازج منقوع في ماء ساخن لمشروب عشبي دافئ وحار بحرارة طبيعية."
           },
           "price": 15,
-          "imageUrl": "/images/item-70.jpeg",
+          "imageUrl": "/images-optimized/item-70.webp",
           "popular": false
         },
         {
@@ -1052,7 +1052,7 @@
             "ar": "أعواد قرفة دافئة مخمرة في شاي ساخن حلو وعطري برائحة مريحة."
           },
           "price": 20,
-          "imageUrl": "/images/item-71.jpeg",
+          "imageUrl": "/images-optimized/item-71.webp",
           "popular": false
         },
         {
@@ -1066,7 +1066,7 @@
             "ar": "شاي قرفة مخمر ممزوج بالحليب المبخر لمشروب دافئ كريمي وعطري بالبهارات."
           },
           "price": 35,
-          "imageUrl": "/images/item-72.jpeg",
+          "imageUrl": "/images-optimized/item-72.webp",
           "popular": false
         },
         {
@@ -1080,7 +1080,7 @@
             "ar": "عصير تفاح دافئ متبل بالقرفة والقرنفل لمشروب ساخن حلو ومريح."
           },
           "price": 35,
-          "imageUrl": "/images/item-73.jpeg",
+          "imageUrl": "/images-optimized/item-73.webp",
           "popular": false
         },
         {
@@ -1094,7 +1094,7 @@
             "ar": "عصير ليمون طازج ممزوج بماء ساخن ولمسة من العسل لمشروب حمضيات مهدئ."
           },
           "price": 30,
-          "imageUrl": "/images/item-74.jpeg",
+          "imageUrl": "/images-optimized/item-74.webp",
           "popular": false
         },
         {
@@ -1108,7 +1108,7 @@
             "ar": "مزيج مهدئ من الأعشاب المختلطة منقوعة في ماء ساخن لمنقوع عشبي مهدئ وعطري."
           },
           "price": 40,
-          "imageUrl": "/images/item-75.jpeg",
+          "imageUrl": "/images-optimized/item-75.webp",
           "popular": false
         },
         {
@@ -1122,7 +1122,7 @@
             "ar": "قهوة نسكافيه سريعة التحضير تقدم سوداء لمشروب قهوة ساخن سريع وقوي."
           },
           "price": 20,
-          "imageUrl": "/images/item-76.jpeg",
+          "imageUrl": "/images-optimized/item-76.webp",
           "popular": false
         },
         {
@@ -1136,7 +1136,7 @@
             "ar": "قهوة نسكافيه سريعة التحضير ممزوجة بالحليب المبخر لمشروب ساخن ناعم وكريمي."
           },
           "price": 35,
-          "imageUrl": "/images/item-77.jpeg",
+          "imageUrl": "/images-optimized/item-77.webp",
           "popular": false
         },
         {
@@ -1150,7 +1150,7 @@
             "ar": "مزيج قهوة سريعة التحضير كلاسيكي مع مبيض وسكر محضر ساخناً لمشروب سريع ومُرضٍ."
           },
           "price": 20,
-          "imageUrl": "/images/item-78.jpeg",
+          "imageUrl": "/images-optimized/item-78.webp",
           "popular": false
         },
         {
@@ -1164,7 +1164,7 @@
             "ar": "مزيج قهوة سريعة التحضير مع حليب مبخر لتجربة قهوة ساخنة أغنى وأكثر كريمية."
           },
           "price": 30,
-          "imageUrl": "/images/item-79.jpeg",
+          "imageUrl": "/images-optimized/item-79.webp",
           "popular": false
         }
       ]

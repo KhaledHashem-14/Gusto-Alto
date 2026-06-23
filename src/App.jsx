@@ -163,7 +163,7 @@ function MenuItem({ item, lang, index }) {
             <div className="absolute inset-0 animate-shimmer bg-stone-100" />
           )}
           <img
-            src={item.imageUrl}
+            src={`${import.meta.env.BASE_URL}${item.imageUrl.replace(/^\//, '')}`}
             alt={item.name[lang]}
             loading="lazy"
             onLoad={() => setImgLoaded(true)}
@@ -378,7 +378,7 @@ function Footer({ lang }) {
         }}
       >
         <img
-          src={INFO.footerImage}
+          src={`${import.meta.env.BASE_URL}${INFO.footerImage.replace(/^\//, '')}`}
           alt={isAr ? "جوستو التو" : "Gusto Alto"}
           className="w-full h-auto object-cover"
           style={{ borderRadius: "16px" }}
